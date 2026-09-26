@@ -1,5 +1,12 @@
-# Rollback Note — Map / Prehistory Candidate Activation
+# Rollback Note — Map / Prehistory Resource Activation
 
-This B2 package makes no active change, so there is nothing to roll back now.
+If this resource release must be rolled back before any Resolver consumer is activated, revert the GalaxyWorldCanon PR/merge that introduced `GALAXY-CONTENT-2026.09-R1` or publish a superseding Resource Catalog revision marking the projections inactive.
 
-For a future activation release: retain the previous Catalog and projection revisions by exact commit/blob/SHA. If validation fails, restore the prior Catalog routing revision (or publish a superseding Catalog revision marking these projections inactive/deprecated), stop new runs from resolving the failed revisions, and keep already-created run snapshots unchanged. Do not rewrite or migrate historical runs. Re-run the Resolver acceptance checks against the restored exact pins before resuming new-run creation. The prior release ID and rollback commit must be recorded by the future activation release owner.
+After a Resolver consumer is activated, rollback must:
+
+1. stop new runs from resolving the affected Catalog revision;
+2. restore/pin the prior Catalog revision or a superseding safe revision;
+3. keep already-created historical run snapshots unchanged;
+4. re-run Resolver acceptance checks against the restored exact pins before resuming new-run creation.
+
+No Canon source prose, user state, or historical Story run is rewritten by this rollback.
