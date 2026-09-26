@@ -14,6 +14,7 @@
 | 给工程系统写/改数据结构、字段 | [00_ENGINEERING/银河 Story Schema v0.3](00_ENGINEERING/银河%20Story%20Schema%20v0.3｜Engineering%20Data%20Contract%20Candidate.md) |
 | 写一集正式剧本 / 判断某集是否合格 | [00_ENGINEERING/银河 Narrative Production Spec v0.2](00_ENGINEERING/银河%20Narrative%20Production%20Spec%20v0.2｜单集叙事生产呈现与验收规范.md) |
 | 要修改 Canon、发新版本、走审批流程 | [00_ENGINEERING/Galaxy Update Release Migration Protocol v0.1](00_ENGINEERING/Galaxy%20Update%20Release%20Migration%20Protocol%20v0.1.md) + 两份模板 |
+| 想知道哪些共享资源已经正式上架、由谁消费、应固定哪个版本 | `00_ENGINEERING/resources/GALAXY_RESOURCE_CATALOG.json` |
 | 想理解整体架构、模块划分、团队分工 | [00_ENGINEERING/Galaxy Engineering Handoff Pack v0.1](00_ENGINEERING/Galaxy%20Engineering%20Handoff%20Pack%20v0.1.md) |
 | 想看一个"合格产出"长什么样 | [02_GOLDEN_SAMPLE](02_GOLDEN_SAMPLE/)（**但注意**，见下方特别说明） |
 | 想搞清楚某个旧术语/旧设定为什么消失了 | [03_REFERENCE_HISTORY](03_REFERENCE_HISTORY/)（仅供追溯，**不可**当规范用） |
@@ -55,6 +56,7 @@
 - **Galaxy Update Release Migration Protocol v0.1** — 变更治理总协议，定义变更全生命周期、6 类变更分类、8 类迁移类型，明确规定 CodeX 等自动化系统的权限边界（例如不能批准 C0/C1 Canon 变更、不能接受 Retcon）。**任何要修改 Canon 或 Schema 的 agent，必须先看这份，走对应审批流程。**
 - **Galaxy CHANGESET Template v0.1 / Galaxy Release Manifest Template v0.1** — 变更记录与发布清单的标准模板，正式变更必须据此生成实例。
 - **Galaxy Handoff Dry Run v0.1** — 用真实案例验证治理协议的演练报告，附带"给 CodeX 的标准指令模板"，可作为写变更请求时的参考范例。
+- **resources/GALAXY_RESOURCE_CATALOG.json** — 共享资源路由索引。它只记录资源 ID、权威/成熟度、来源与检索方式，不复制 Canon 正文。Map / Prehistory 等结构化投影通过此处声明是否已正式上架；下游 run 仍必须从外部固定 Catalog 的 exact commit/blob/SHA，禁止静默跟随 moving `main`。
 
 ### 3. `02_GOLDEN_SAMPLE/`——生产参考样本（需逐份核对状态，不要笼统当"已批准范本"）
 
