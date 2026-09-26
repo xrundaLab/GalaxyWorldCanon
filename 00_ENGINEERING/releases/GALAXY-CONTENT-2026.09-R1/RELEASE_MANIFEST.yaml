@@ -9,22 +9,38 @@ galaxy_release:
   production_spec_version: v0.2
   runtime_config_version: null
   course_source_version: null
-  status: CANDIDATE
+  status: RELEASED
   baseline_commit: 7966a848b2ad61043aa17b3330228cd189bfe2f5
-  candidate_package_commit: EXTERNAL_GIT_PROVENANCE_NON_SELF_REFERENTIAL
-  sources:
-    map_canon: {version: v0.1, repo: xrundaLab/GalaxyWorldCanon, commit: 7966a848b2ad61043aa17b3330228cd189bfe2f5, blob: b740677de420641ff6f7fb5e35b13fca76946f75, sha256: cda9f68766a8f0c709775015ce71b3ffed143401bfd77fc60f45eb7d2f1cef36}
-    prehistory: {version: v0.1, repo: xrundaLab/GalaxyWorldCanon, commit: 7966a848b2ad61043aa17b3330228cd189bfe2f5, blob: 880bfa5f19ab5845c3c146661df03e4a1740ecf6, sha256: b65885f15c9b86eb77ba2fbf1985755a2d6b2e2009577600bd5de68ac243a1ca}
-  candidate_projections:
-    map: {path: 00_ENGINEERING/resources/GALAXY_MAP_INDEX_V0.1.json, sha256: 23b1fea64c46e7857e3f58a8c8f22dfa416b198224c73d49492dc986b18190fe, lifecycle: NOT_ACTIVE}
-    prehistory: {path: 00_ENGINEERING/resources/GALAXY_PREHISTORY_INDEX_V0.1.json, sha256: 778385385b8cc267c961def2fec8123b4a49ef195f2156e4e988f622ba4e2844, lifecycle: NOT_ACTIVE}
-    catalog: {path: 00_ENGINEERING/resources/GALAXY_RESOURCE_CATALOG.json, sha256: 1aeebd5848e548c574bd9ce3a4f706f7605055db514522ab521585b97107be80, lifecycle: CANDIDATE_NOT_ACTIVE}
+  publication_provenance: GIT_HISTORY_NON_SELF_REFERENTIAL
+  active_resources:
+    readme_routing:
+      path: README.md
+      blob: 6edac11daef6b8dd468dbf84796e76bcb2150ebe
+      sha256: 45394abbf21601208aede247324a8d4b412d66dbe5d3dbeb3babb85d4112fde9
+    map_projection:
+      path: 00_ENGINEERING/resources/GALAXY_MAP_INDEX_V0.1.json
+      blob: 78e27ee6ea32aa9e3af676e6789dde1aca1b427f
+      sha256: ab22056002138a3a3f167c9b678e8e14d017e02857735db4eafba2138eaee1de
+      lifecycle: ACTIVE
+    prehistory_projection:
+      path: 00_ENGINEERING/resources/GALAXY_PREHISTORY_INDEX_V0.1.json
+      blob: 1563d735173e61fa87cfb724a72ee9dd31058b8d
+      sha256: 160fc5322de9678de708770ddb6c81723ca5963e9e6ca181b00ed67d04e3d935
+      lifecycle: ACTIVE
+    resource_catalog:
+      path: 00_ENGINEERING/resources/GALAXY_RESOURCE_CATALOG.json
+      blob: ee46788bb9cf8d9ee6226565dd98aab88d33f974
+      sha256: 75d4065019f2e4f96c1508c3afe626682d55afa42b1022cab6f8bb419b3841ea
+      lifecycle: ACTIVE
+  inactive_resources:
+    curriculum_projection: CANDIDATE_NOT_APPROVED
+    approved_reference_asset_registry: NOT_INCLUDED_IN_THIS_RELEASE
   changeset_ids:
-    - GWC-RESOURCE-ROUTING-MAP-PREHISTORY-2026-09-B2
+    - GWC-RESOURCE-ROUTING-MAP-PREHISTORY-2026-09-R1
   migrations: []
   golden_tests: []
   approved_by:
-    canon_owner: null
-    engineering_owner: null
+    canon_owner: OWNER_APPROVED_IN_GALAXY_STORY_REFERENCE_KERNEL_ISSUE_18
+    engineering_owner: OWNER_AUTHORIZED_CHATGPT_TECHNICAL_REVIEW_PR_2
   created_at: 2026-09-26
-  released_at: null
+  released_at: 2026-09-26
