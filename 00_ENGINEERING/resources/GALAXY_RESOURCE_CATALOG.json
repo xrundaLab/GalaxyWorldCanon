@@ -1,18 +1,17 @@
 {
   "catalog_id": "GALAXY_RESOURCE_CATALOG",
-  "catalog_candidate_id": "GALAXY_RESOURCE_CATALOG_ACTIVATION_RC1",
-  "schema_version": "0.1-candidate-b2",
-  "status": "RELEASE_CANDIDATE_NOT_ACTIVE",
+  "schema_version": "0.1",
+  "status": "ACTIVE_RESOURCE_CATALOG",
   "intended_home": {
     "repository": "xrundaLab/GalaxyWorldCanon",
     "path": "00_ENGINEERING/resources/GALAXY_RESOURCE_CATALOG.json"
   },
   "catalog_revision": {
     "source_repository": "xrundaLab/GalaxyWorldCanon",
-    "source_branch": "resource/map-prehistory-catalog-activation-rc1",
-    "active_revision": false,
+    "source_path": "00_ENGINEERING/resources/GALAXY_RESOURCE_CATALOG.json",
+    "active_revision": true,
     "publication_commit_recorded_externally": true,
-    "revision_resolution": "Story runs pin this Catalog externally by repo/path/commit/blob/SHA-256. Same-repo projection records resolve at that pinned Catalog revision; the Catalog never self-hashes."
+    "revision_resolution": "Consumers pin this Catalog externally by repo/path/commit/blob/SHA-256. Same-repository resources marked SAME_AS_PINNED_CATALOG_REVISION resolve at that exact pinned commit. The Catalog never self-hashes."
   },
   "status_vocabularies": {
     "authority_status": [
@@ -42,7 +41,7 @@
     ]
   },
   "revision_policy": "Catalog edits produce a new source-repository commit and file hash. Publication commit is external Git provenance, not embedded in the bytes it identifies. A new Story run pins the exact approved Catalog revision; no moving-main adoption.",
-  "content_boundary": "Router/index metadata only. This B2 candidate proposes future routing for Map and Prehistory release candidates; it does not activate resources or introduce source facts.",
+  "content_boundary": "Router/index metadata only. Map and Prehistory structured projections are active resource routes in GALAXY-CONTENT-2026.09-R1; Curriculum and Reference Registry remain inactive. The Catalog does not duplicate Canon prose or factual payload.",
   "resources": [
     {
       "resource_id": "GWC-README-ROUTING",
@@ -741,41 +740,27 @@
       "resource_type": "STRUCTURED_SPATIAL_MAP_INDEX",
       "source_repo": "xrundaLab/GalaxyWorldCanon",
       "source_path": "00_ENGINEERING/resources/GALAXY_MAP_INDEX_V0.1.json",
-      "source_revision": null,
-      "git_blob": "43e95be885ed9e365bd46916b1d5e2623167c933",
-      "sha256": "23b1fea64c46e7857e3f58a8c8f22dfa416b198224c73d49492dc986b18190fe",
-      "authority_status": "NOT_ACTIVE",
+      "source_revision": "SAME_AS_PINNED_CATALOG_REVISION",
+      "git_blob": "78e27ee6ea32aa9e3af676e6789dde1aca1b427f",
+      "sha256": "ab22056002138a3a3f167c9b678e8e14d017e02857735db4eafba2138eaee1de",
+      "authority_status": "ACTIVE_AUTHORITY",
       "maturity_status": "CANDIDATE",
-      "lifecycle_class": "CANDIDATE_NOT_APPROVED",
-      "allowed_consumers": [],
-      "retrieval_mode": "NOT_RESOLVABLE_PENDING_ENGINEERING_ACTIVATION_REVIEW",
-      "scope": "Candidate structured resource only; an approved revision needs its own exact repository, commit, path, blob, and SHA-256 before any new run can resolve it.",
+      "lifecycle_class": "ACTIVE_ALWAYS",
+      "allowed_consumers": [
+        "PLAN_C_STORY_KERNEL"
+      ],
+      "retrieval_mode": "STRUCTURED_INDEX_THEN_BOUNDED_DETAIL",
+      "scope": "Active structured Map inventory for Story Conception discovery/selection. L01-L06 selectable; L07 visible/non-selectable; L08 discoverable Personal State and excluded from ordinary physical-location selection.",
       "lifecycle": {
-        "effective_from": null,
+        "effective_from": "GALAXY-CONTENT-2026.09-R1",
         "deprecated_by": null,
-        "approval_evidence": null
+        "approval_evidence": "Owner Map decision recorded in galaxy-story-reference-kernel Issue #18; engineering activation reviewed in GalaxyWorldCanon PR #2."
       },
       "projection_ref": null,
       "projection_of": "GWC-SPATIAL-MAP-V01",
       "governed_by": null,
       "candidate_pin_complete": true,
-      "notes": "RC1 target path/blob/content hash are concrete. Future Story runs pin the Catalog externally; the resource resolves at the pinned Catalog revision.",
-      "candidate_publication_provenance": {
-        "repository": "xrundaLab/galaxy-story-reference-kernel",
-        "branch": "audit/resource-on-shelf-context-consumption",
-        "base_commit": "053f4f8b97239040dac26754210097cdb60061b2",
-        "commit_and_git_blob": "recorded after candidate commit; not self-embedded"
-      },
-      "intended_future_lifecycle_after_activation": {
-        "authority_status": "ACTIVE_AUTHORITY",
-        "maturity_status": "CANDIDATE",
-        "lifecycle_class": "ACTIVE_ALWAYS",
-        "allowed_consumers": [
-          "PLAN_C_STORY_KERNEL"
-        ],
-        "retrieval_mode": "STRUCTURED_INDEX_THEN_BOUNDED_DETAIL",
-        "activation_requires": "separate Owner-approved GalaxyWorldCanon release and Catalog activation; exact post-commit path/commit/blob/SHA pin"
-      },
+      "notes": "Active route uses exact file blob/content hash at the same commit as the externally pinned Catalog. Names remain provisional structural placeholders.",
       "scope_note": "Issue #18 Owner decision authorizes selected/discoverable eligibility for L01-L06; L07/L08 retain bounded status.",
       "same_repository_revision_semantics": "SAME_AS_PINNED_CATALOG_REVISION"
     },
@@ -784,41 +769,27 @@
       "resource_type": "STRUCTURED_PREHISTORY_INDEX",
       "source_repo": "xrundaLab/GalaxyWorldCanon",
       "source_path": "00_ENGINEERING/resources/GALAXY_PREHISTORY_INDEX_V0.1.json",
-      "source_revision": null,
-      "git_blob": "1c7e666c86e90f7b6137b2aea7a81968bdc89767",
-      "sha256": "778385385b8cc267c961def2fec8123b4a49ef195f2156e4e988f622ba4e2844",
-      "authority_status": "NOT_ACTIVE",
+      "source_revision": "SAME_AS_PINNED_CATALOG_REVISION",
+      "git_blob": "1563d735173e61fa87cfb724a72ee9dd31058b8d",
+      "sha256": "160fc5322de9678de708770ddb6c81723ca5963e9e6ca181b00ed67d04e3d935",
+      "authority_status": "ACTIVE_AUTHORITY",
       "maturity_status": "CANDIDATE",
-      "lifecycle_class": "CANDIDATE_NOT_APPROVED",
-      "allowed_consumers": [],
-      "retrieval_mode": "NOT_RESOLVABLE_PENDING_ENGINEERING_ACTIVATION_REVIEW",
-      "scope": "Candidate structured resource only; an approved revision needs its own exact repository, commit, path, blob, and SHA-256 before any new run can resolve it.",
+      "lifecycle_class": "ACTIVE_ALWAYS",
+      "allowed_consumers": [
+        "PLAN_C_STORY_KERNEL"
+      ],
+      "retrieval_mode": "STRUCTURED_INDEX_THEN_BOUNDED_DETAIL",
+      "scope": "Active H01-H12 authoring-background continuity index under AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW.",
       "lifecycle": {
-        "effective_from": null,
+        "effective_from": "GALAXY-CONTENT-2026.09-R1",
         "deprecated_by": null,
-        "approval_evidence": null
+        "approval_evidence": "Owner Prehistory decision recorded in galaxy-story-reference-kernel Issue #18; engineering activation reviewed in GalaxyWorldCanon PR #2."
       },
       "projection_ref": null,
       "projection_of": "GWC-PREHISTORY-TIMELINE-V01",
       "governed_by": null,
       "candidate_pin_complete": true,
-      "notes": "RC1 target path/blob/content hash are concrete. Future Story runs pin the Catalog externally; the resource resolves at the pinned Catalog revision.",
-      "candidate_publication_provenance": {
-        "repository": "xrundaLab/galaxy-story-reference-kernel",
-        "branch": "audit/resource-on-shelf-context-consumption",
-        "base_commit": "053f4f8b97239040dac26754210097cdb60061b2",
-        "commit_and_git_blob": "recorded after candidate commit; not self-embedded"
-      },
-      "intended_future_lifecycle_after_activation": {
-        "authority_status": "ACTIVE_AUTHORITY",
-        "maturity_status": "CANDIDATE",
-        "lifecycle_class": "ACTIVE_ALWAYS",
-        "allowed_consumers": [
-          "PLAN_C_STORY_KERNEL"
-        ],
-        "retrieval_mode": "STRUCTURED_INDEX_THEN_BOUNDED_DETAIL",
-        "activation_requires": "separate Owner-approved GalaxyWorldCanon release and Catalog activation; exact post-commit path/commit/blob/SHA pin"
-      },
+      "notes": "Active route uses exact file blob/content hash at the same commit as the externally pinned Catalog. Direct character/User disclosure is not granted.",
       "scope_note": "Issue #18 Owner decision authorizes H01-H12 as authoring-background continuity, subject to exposure review.",
       "same_repository_revision_semantics": "SAME_AS_PINNED_CATALOG_REVISION"
     },
@@ -872,5 +843,6 @@
       "candidate_pin_complete": false,
       "notes": "Candidate file SHA-256 records local bytes; publication commit is external Git provenance and activation needs a separately approved source pin."
     }
-  ]
+  ],
+  "activation_release_id": "GALAXY-CONTENT-2026.09-R1"
 }
