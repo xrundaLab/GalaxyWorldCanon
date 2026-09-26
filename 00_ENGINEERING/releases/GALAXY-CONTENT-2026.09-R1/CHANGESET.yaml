@@ -1,0 +1,42 @@
+changeset:
+  change_id: GWC-RESOURCE-ROUTING-MAP-PREHISTORY-2026-09-B2
+  release_id: GALAXY-CONTENT-2026.09-R1
+  status: CANDIDATE_NOT_ACTIVE
+  change_class: CONTENT_UPDATE
+  summary: Prepare reviewed Map and Prehistory index projections plus Catalog routing candidate for separate activation review.
+  changed_sources:
+    - repository: xrundaLab/GalaxyWorldCanon
+      path: 00_ENGINEERING/resources/GALAXY_MAP_INDEX_V0.1.json
+      sha256: 23b1fea64c46e7857e3f58a8c8f22dfa416b198224c73d49492dc986b18190fe
+    - repository: xrundaLab/GalaxyWorldCanon
+      path: 00_ENGINEERING/resources/GALAXY_PREHISTORY_INDEX_V0.1.json
+      sha256: 778385385b8cc267c961def2fec8123b4a49ef195f2156e4e988f622ba4e2844
+    - repository: xrundaLab/GalaxyWorldCanon
+      path: 00_ENGINEERING/resources/GALAXY_RESOURCE_CATALOG.json
+      sha256: 1aeebd5848e548c574bd9ce3a4f706f7605055db514522ab521585b97107be80
+  added:
+    - Owner-scoped Map discovery/selection eligibility projection for L01-L08
+    - Owner-scoped Prehistory H01-H12 authoring-background projection
+    - Non-active Catalog routing candidate and governance package
+  changed: []
+  deprecated: []
+  removed: []
+  impact:
+    content: LOW  # source Canon statements unchanged; projections add no facts
+    schema: NONE
+    engineering: LOW  # future Resolver acceptance contract only; no implementation
+    state: NONE
+    episodes: LOW  # future new-run context only; no historical migration
+    qa: LOW
+  migration:
+    required: false
+    migration_type: NONE
+  regeneration:
+    required: false
+    scope: []
+  affected_episode_ids: []
+  required_issues:
+    - 18
+  approval_required:
+    canon_owner: true
+    engineering_owner: true
