@@ -48,9 +48,9 @@
       "resource_type": "AUTHORITY_ROUTING_README",
       "source_repo": "xrundaLab/GalaxyWorldCanon",
       "source_path": "README.md",
-      "source_revision": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
-      "git_blob": "1d9ea3ec8e1cdf49598850d7342a6343d1f7448f",
-      "sha256": "d55701a0a1d69916dbde0c0bd75798281f6f7d5bf5ad45f13f2d02f5e712e7e2",
+      "source_revision": "SAME_AS_PINNED_CATALOG_REVISION",
+      "git_blob": "6edac11daef6b8dd468dbf84796e76bcb2150ebe",
+      "sha256": "45394abbf21601208aede247324a8d4b412d66dbe5d3dbeb3babb85d4112fde9",
       "authority_status": "GOVERNANCE_ONLY",
       "maturity_status": null,
       "lifecycle_class": "GOVERNANCE_ONLY",
@@ -62,12 +62,12 @@
       "retrieval_mode": "REQUIRED_ROUTING_METADATA",
       "scope": "Routes downstream consumers to the current source bundle; does not replace each resource's subject authority.",
       "lifecycle": {
-        "effective_from": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "effective_from": "GALAXY-CONTENT-2026.09-R1",
         "deprecated_by": null,
-        "approval_evidence": "Repository README declares 01_SOURCE_OF_TRUTH as the current highest world-authority route."
+        "approval_evidence": "README routing updated in GalaxyWorldCanon PR #2 to expose the shared Resource Catalog."
       },
       "projection_ref": null,
-      "notes": "No explicit maturity label is asserted in the pinned README; it is a routing document."
+      "notes": "Root routing document now points agents to the shared Catalog; it remains governance/routing metadata rather than subject authority."
     },
     {
       "resource_id": "GWC-WORLD-CANON-V1",
