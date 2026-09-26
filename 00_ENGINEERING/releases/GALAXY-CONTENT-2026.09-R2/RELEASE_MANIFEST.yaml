@@ -11,7 +11,7 @@ galaxy_release:
   production_spec_version: v0.2
   runtime_config_version: null
   course_source_version: null
-  status: RC
+  status: RELEASED
   baseline_commit: b5ee5c6f5c3b6732f69414f6388d0f07e6b80c14
   publication_provenance: GIT_HISTORY_NON_SELF_REFERENTIAL
   active_resources:
@@ -35,6 +35,6 @@ galaxy_release:
   golden_tests: []
   approved_by:
     canon_owner: OWNER_APPROVED_IN_GALAXY_STORY_REFERENCE_KERNEL_ISSUE_17
-    engineering_owner: null
+    engineering_owner: OWNER_AUTHORIZED_CHATGPT_TECHNICAL_REVIEW_PR_4
   created_at: 2026-09-26
-  released_at: null
+  released_at: 2026-09-26
