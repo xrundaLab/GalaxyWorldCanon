@@ -1,0 +1,298 @@
+{
+  "projection_id": "GALAXY_MAP_INDEX_V0.1_RELEASE_CANDIDATE",
+  "status": "RELEASE_CANDIDATE_NOT_ACTIVE",
+  "source": {
+    "repository": "xrundaLab/GalaxyWorldCanon",
+    "path": "01_SOURCE_OF_TRUTH/银河空间地图与固定场所骨架 v0.1.md",
+    "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+    "git_blob": "b740677de420641ff6f7fb5e35b13fca76946f75",
+    "sha256": "cda9f68766a8f0c709775015ce71b3ffed143401bfd77fc60f45eb7d2f1cef36",
+    "source_status": "CANON CANDIDATE",
+    "source_locator": "§72 第一批空间骨架表"
+  },
+  "projection_policy": "Owner-approved discovery eligibility over the exact eight §72 source rows. Source names, type/function, broad usage context, source status, and soft associations are retained without topology, renaming, hard gate, or runtime inference.",
+  "records": [
+    {
+      "location_id": "L01",
+      "region": null,
+      "location_type": "Reality Link 接入区域",
+      "source_use_note": "首次进入/部分返航",
+      "source_status_label": "CANDIDATE",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "projection_eligibility": "ELIGIBLE_FOR_STORY_CONCEPTION_DISCOVERY_SELECTION_AFTER_ACTIVATION",
+      "constraints_refs": [],
+      "affordance_refs": [
+        "§72 第一批空间骨架表: 首次进入/部分返航"
+      ],
+      "source_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河空间地图与固定场所骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "b740677de420641ff6f7fb5e35b13fca76946f75",
+        "locator": "§72, row L01",
+        "sha256": "cda9f68766a8f0c709775015ce71b3ffed143401bfd77fc60f45eb7d2f1cef36"
+      },
+      "source_secondary_name": null,
+      "secondary_name_kind": null,
+      "source_name": "初航锚区",
+      "name_status": "PROVISIONAL_STRUCTURAL_PLACEHOLDER",
+      "source_secondary_name_ref": null,
+      "soft_character_place_association": null,
+      "physical_location_selection_status": "ELIGIBLE_AFTER_ACTIVATION",
+      "owner_decision_scope": "L01-L06 may be discoverable/selectable provisional persistent-place identities; no hard character/location gate."
+    },
+    {
+      "location_id": "L02",
+      "region": null,
+      "location_type": "公共跨域空间",
+      "source_use_note": "日常、偶遇、转乘",
+      "source_status_label": "CANDIDATE",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "projection_eligibility": "ELIGIBLE_FOR_STORY_CONCEPTION_DISCOVERY_SELECTION_AFTER_ACTIVATION",
+      "constraints_refs": [],
+      "affordance_refs": [
+        "§72 第一批空间骨架表: 日常、偶遇、转乘"
+      ],
+      "source_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河空间地图与固定场所骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "b740677de420641ff6f7fb5e35b13fca76946f75",
+        "locator": "§72, row L02",
+        "sha256": "cda9f68766a8f0c709775015ce71b3ffed143401bfd77fc60f45eb7d2f1cef36"
+      },
+      "source_secondary_name": null,
+      "secondary_name_kind": null,
+      "source_name": "共航中继站",
+      "name_status": "PROVISIONAL_STRUCTURAL_PLACEHOLDER",
+      "source_secondary_name_ref": null,
+      "soft_character_place_association": null,
+      "physical_location_selection_status": "ELIGIBLE_AFTER_ACTIVATION",
+      "owner_decision_scope": "L01-L06 may be discoverable/selectable provisional persistent-place identities; no hard character/location gate."
+    },
+    {
+      "location_id": "L03",
+      "region": null,
+      "location_type": "研究设施",
+      "source_use_note": "康缇常用、信号/档案",
+      "source_status_label": "CANDIDATE",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "projection_eligibility": "ELIGIBLE_FOR_STORY_CONCEPTION_DISCOVERY_SELECTION_AFTER_ACTIVATION",
+      "constraints_refs": [],
+      "affordance_refs": [
+        "§72 第一批空间骨架表: 康缇常用、信号/档案"
+      ],
+      "source_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河空间地图与固定场所骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "b740677de420641ff6f7fb5e35b13fca76946f75",
+        "locator": "§72, row L03",
+        "sha256": "cda9f68766a8f0c709775015ce71b3ffed143401bfd77fc60f45eb7d2f1cef36"
+      },
+      "source_secondary_name": "Signal Observatory",
+      "secondary_name_kind": "SOURCE_ENGLISH_LABEL_PROVISIONAL",
+      "source_name": "长期观测站",
+      "name_status": "PROVISIONAL_STRUCTURAL_PLACEHOLDER",
+      "source_secondary_name_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河空间地图与固定场所骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "b740677de420641ff6f7fb5e35b13fca76946f75",
+        "locator": "# 长期观测站 / Signal Observatory",
+        "sha256": "cda9f68766a8f0c709775015ce71b3ffed143401bfd77fc60f45eb7d2f1cef36",
+        "section_locator": "# 28. 固定场所第三类：康缇常去的观测地点"
+      },
+      "soft_character_place_association": {
+        "source_phrase": "康缇常用",
+        "semantics": "SOFT_SOURCE_BACKED_ASSOCIATION_NOT_ACCESS_OR_CAST_GATE"
+      },
+      "physical_location_selection_status": "ELIGIBLE_AFTER_ACTIVATION",
+      "owner_decision_scope": "L01-L06 may be discoverable/selectable provisional persistent-place identities; no hard character/location gate."
+    },
+    {
+      "location_id": "L04",
+      "region": null,
+      "location_type": "制造空间",
+      "source_use_note": "普罗常用、测试/建造",
+      "source_status_label": "CANDIDATE",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "projection_eligibility": "ELIGIBLE_FOR_STORY_CONCEPTION_DISCOVERY_SELECTION_AFTER_ACTIVATION",
+      "constraints_refs": [],
+      "affordance_refs": [
+        "§72 第一批空间骨架表: 普罗常用、测试/建造"
+      ],
+      "source_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河空间地图与固定场所骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "b740677de420641ff6f7fb5e35b13fca76946f75",
+        "locator": "§72, row L04",
+        "sha256": "cda9f68766a8f0c709775015ce71b3ffed143401bfd77fc60f45eb7d2f1cef36"
+      },
+      "source_secondary_name": "Prototype Yard",
+      "secondary_name_kind": "SOURCE_ENGLISH_LABEL_PROVISIONAL",
+      "source_name": "公共工坊",
+      "name_status": "PROVISIONAL_STRUCTURAL_PLACEHOLDER",
+      "source_secondary_name_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河空间地图与固定场所骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "b740677de420641ff6f7fb5e35b13fca76946f75",
+        "locator": "# 公共工坊 / Prototype Yard",
+        "sha256": "cda9f68766a8f0c709775015ce71b3ffed143401bfd77fc60f45eb7d2f1cef36",
+        "section_locator": "# 30. 固定场所第四类：普罗常用工坊区"
+      },
+      "soft_character_place_association": {
+        "source_phrase": "普罗常用",
+        "semantics": "SOFT_SOURCE_BACKED_ASSOCIATION_NOT_ACCESS_OR_CAST_GATE"
+      },
+      "physical_location_selection_status": "ELIGIBLE_AFTER_ACTIVATION",
+      "owner_decision_scope": "L01-L06 may be discoverable/selectable provisional persistent-place identities; no hard character/location gate."
+    },
+    {
+      "location_id": "L05",
+      "region": null,
+      "location_type": "公共生活空间",
+      "source_use_note": "爱今常出现、真实使用反馈",
+      "source_status_label": "CANDIDATE",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "projection_eligibility": "ELIGIBLE_FOR_STORY_CONCEPTION_DISCOVERY_SELECTION_AFTER_ACTIVATION",
+      "constraints_refs": [],
+      "affordance_refs": [
+        "§72 第一批空间骨架表: 爱今常出现、真实使用反馈"
+      ],
+      "source_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河空间地图与固定场所骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "b740677de420641ff6f7fb5e35b13fca76946f75",
+        "locator": "§72, row L05",
+        "sha256": "cda9f68766a8f0c709775015ce71b3ffed143401bfd77fc60f45eb7d2f1cef36"
+      },
+      "source_secondary_name": "Commons",
+      "secondary_name_kind": "SOURCE_ENGLISH_LABEL_PROVISIONAL",
+      "source_name": "共同行动场",
+      "name_status": "PROVISIONAL_STRUCTURAL_PLACEHOLDER",
+      "source_secondary_name_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河空间地图与固定场所骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "b740677de420641ff6f7fb5e35b13fca76946f75",
+        "locator": "# 共同行动场 / Commons",
+        "sha256": "cda9f68766a8f0c709775015ce71b3ffed143401bfd77fc60f45eb7d2f1cef36",
+        "section_locator": "# 32. 固定场所第五类：爱今经常出现的公共空间"
+      },
+      "soft_character_place_association": {
+        "source_phrase": "爱今常出现",
+        "semantics": "SOFT_SOURCE_BACKED_ASSOCIATION_NOT_ACCESS_OR_CAST_GATE"
+      },
+      "physical_location_selection_status": "ELIGIBLE_AFTER_ACTIVATION",
+      "owner_decision_scope": "L01-L06 may be discoverable/selectable provisional persistent-place identities; no hard character/location gate."
+    },
+    {
+      "location_id": "L06",
+      "region": null,
+      "location_type": "历史/知识设施",
+      "source_use_note": "旧航线与多版本历史",
+      "source_status_label": "CANDIDATE",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "projection_eligibility": "ELIGIBLE_FOR_STORY_CONCEPTION_DISCOVERY_SELECTION_AFTER_ACTIVATION",
+      "constraints_refs": [],
+      "affordance_refs": [
+        "§72 第一批空间骨架表: 旧航线与多版本历史"
+      ],
+      "source_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河空间地图与固定场所骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "b740677de420641ff6f7fb5e35b13fca76946f75",
+        "locator": "§72, row L06",
+        "sha256": "cda9f68766a8f0c709775015ce71b3ffed143401bfd77fc60f45eb7d2f1cef36"
+      },
+      "source_secondary_name": "Voyage Archive",
+      "secondary_name_kind": "SOURCE_ENGLISH_LABEL_PROVISIONAL",
+      "source_name": "航行档案馆",
+      "name_status": "PROVISIONAL_STRUCTURAL_PLACEHOLDER",
+      "source_secondary_name_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河空间地图与固定场所骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "b740677de420641ff6f7fb5e35b13fca76946f75",
+        "locator": "# 航行档案馆 / Voyage Archive",
+        "sha256": "cda9f68766a8f0c709775015ce71b3ffed143401bfd77fc60f45eb7d2f1cef36",
+        "section_locator": "# 34. 固定场所第六类：银河档案地点"
+      },
+      "soft_character_place_association": null,
+      "physical_location_selection_status": "ELIGIBLE_AFTER_ACTIVATION",
+      "owner_decision_scope": "L01-L06 may be discoverable/selectable provisional persistent-place identities; no hard character/location gate."
+    },
+    {
+      "location_id": "L07",
+      "region": null,
+      "location_type": "普通旧地点",
+      "source_use_note": "四人关系记忆",
+      "source_status_label": "UNDECIDED",
+      "authority_status": "NOT_ACTIVE",
+      "maturity_status": null,
+      "projection_eligibility": "INVENTORY_VISIBLE_NON_SELECTABLE_UNDECIDED",
+      "constraints_refs": [],
+      "affordance_refs": [
+        "§72 第一批空间骨架表: 四人关系记忆"
+      ],
+      "source_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河空间地图与固定场所骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "b740677de420641ff6f7fb5e35b13fca76946f75",
+        "locator": "§72, row L07",
+        "sha256": "cda9f68766a8f0c709775015ce71b3ffed143401bfd77fc60f45eb7d2f1cef36"
+      },
+      "review_note": "Source UNDECIDED is preserved verbatim; it is not coerced into a maturity value.",
+      "source_secondary_name": null,
+      "secondary_name_kind": null,
+      "source_name": "Shared Place 01",
+      "name_status": "PROVISIONAL_STRUCTURAL_PLACEHOLDER",
+      "source_secondary_name_ref": null,
+      "soft_character_place_association": null,
+      "physical_location_selection_status": "NOT_SELECTABLE_UNDECIDED",
+      "owner_decision_scope": "Remain inventory-visible and non-selectable while source status is UNDECIDED."
+    },
+    {
+      "location_id": "L08",
+      "region": null,
+      "location_type": "Personal State",
+      "source_use_note": "用户生活、作品与痕迹",
+      "source_status_label": "C1 CANDIDATE",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "projection_eligibility": "DISCOVERABLE_PERSONAL_STATE_CANDIDATE_EXCLUDED_FROM_ORDINARY_PHYSICAL_LOCATION_SELECTION",
+      "constraints_refs": [],
+      "affordance_refs": [
+        "§72 第一批空间骨架表: 用户生活、作品与痕迹"
+      ],
+      "source_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河空间地图与固定场所骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "b740677de420641ff6f7fb5e35b13fca76946f75",
+        "locator": "§72, row L08",
+        "sha256": "cda9f68766a8f0c709775015ce71b3ffed143401bfd77fc60f45eb7d2f1cef36"
+      },
+      "review_note": "The source labels this C1 CANDIDATE; no runtime location semantics are inferred.",
+      "source_secondary_name": null,
+      "secondary_name_kind": null,
+      "source_name": "用户银河舱",
+      "name_status": "PROVISIONAL_STRUCTURAL_PLACEHOLDER",
+      "source_secondary_name_ref": null,
+      "soft_character_place_association": null,
+      "physical_location_selection_status": "EXCLUDED_ORDINARY_PHYSICAL_LOCATION_SELECTION",
+      "owner_decision_scope": "Discoverable as Personal State/user-space candidate; physical/runtime semantics remain unresolved."
+    }
+  ],
+  "release_candidate_scope": {
+    "decision_authority": "Issue #18 Owner Phase B1 Content Decisions — approved comment 5841836615",
+    "owner_decision_record": "https://github.com/xrundaLab/galaxy-story-reference-kernel/issues/18#issuecomment-5841836615",
+    "plan_c_base_commit": "053f4f8b97239040dac26754210097cdb60061b2",
+    "source_canon_commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+    "activation_state": "NOT_ACTIVE_PENDING_SEPARATE_GALAXYWORLDCANON_RELEASE_APPROVAL",
+    "source_canon_prose_changed": false,
+    "new_canon_facts_created": false,
+    "name_policy": "All displayed names remain provisional structural placeholders; no market-facing proper name is asserted.",
+    "selection_policy": "Only Owner-approved discovery/selection eligibility is represented. Character-place associations remain soft context, never hard gates."
+  }
+}
