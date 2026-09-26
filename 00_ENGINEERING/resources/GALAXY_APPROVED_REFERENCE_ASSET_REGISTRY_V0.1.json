@@ -1,0 +1,464 @@
+{
+  "registry_id": "APPROVED_REFERENCE_ASSET_REGISTRY",
+  "registry_version": "0.1",
+  "status": "ACTIVE_RESOURCE",
+  "release_id": "GALAXY-CONTENT-2026.09-R2",
+  "governance_source": {
+    "repository": "xrundaLab/GalaxyWorldCanon",
+    "path": "01_SOURCE_OF_TRUTH/银河 Controlled Reference Library v0.1｜受控知识、科幻母题与安全资料库.md",
+    "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+    "role": "Reference governance source; approved factual records are maintained in this machine-readable Registry."
+  },
+  "evidence_baseline": {
+    "repository": "xrundaLab/galaxy-story-reference-kernel",
+    "evidence_commit": "ecab47f7ca23a74fc5d31a27bd671b461ed1c2fc",
+    "normalized_owner_decision_commit": "f6d5ceab60c059d0210092095657218e16d8480f",
+    "owner_decision_issue": "https://github.com/xrundaLab/galaxy-story-reference-kernel/issues/17"
+  },
+  "approval_policy": {
+    "initial_tranche": "Owner-approved first tranche.",
+    "future_assets": "Owner-designated Reference Curator/governance role may approve under the same verification contract.",
+    "agent_boundary": "Agents may research and prepare evidence but may not self-approve Story use.",
+    "inclusion_policy": "Deep Note scan is required; inclusion is optional; no frequency quota."
+  },
+  "freshness_policy": "Eligibility is checked when a new run freezes context. Historical verification checks frozen provenance/integrity and does not fail later merely because review_due has passed.",
+  "writer_retrieval_predicate": "asset_status == APPROVED_FOR_STORY && verification_status == VERIFIED && approval_status == APPROVED_FOR_STORY && approval_record != null",
+  "state_invariants": {
+    "approved_requirements": [
+      "verified_by_role",
+      "verification_evidence_ref",
+      "approval_record",
+      "approved_by_role",
+      "approved_at",
+      "source_org",
+      "source_url",
+      "source_locator",
+      "source_retrieved_at",
+      "core_fact",
+      "what_it_does_not_prove",
+      "age_band",
+      "story_use_mode"
+    ],
+    "agent_approval_rule": "Agent may prepare research evidence but cannot set APPROVED_FOR_STORY or self-approve.",
+    "deprecation_rule": "DEPRECATED is never returned to Writer; reactivation needs new verification and approval."
+  },
+  "active_record_count": 9,
+  "excluded_or_held_ids": [
+    "RAC-005"
+  ],
+  "records": [
+    {
+      "asset_id": "RAC-001",
+      "title": "Transit spectroscopy and atmospheric inference",
+      "topic": "Transit spectroscopy as indirect evidence",
+      "source_org": "NASA Science / NASA Exoplanet Exploration Program",
+      "source_url": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+      "source_tier": "Tier S",
+      "truth_domain": "REAL_WORLD_FACT",
+      "truth_label": "FACT",
+      "core_fact": "Transit spectroscopy analyzes starlight that has traveled through an exoplanet atmosphere; spectral patterns can support inference about atmospheric molecules.",
+      "what_it_does_not_prove": [
+        "A spectrum alone proves life, intelligence, or technology.",
+        "Every molecule identification is unambiguous or independent of model/instrument assumptions.",
+        "The telescope directly photographed the molecule or planet surface.",
+        "The same inference applies to every planet or observing setup."
+      ],
+      "age_band": {
+        "min_age": 9,
+        "max_age": 16
+      },
+      "story_use_mode": [
+        "DEEP_NOTE",
+        "EVIDENCE"
+      ],
+      "preferred_voice": null,
+      "source_locator": "NASA page section “Transit Spectroscopy: Reading the Light”; evidence package locator lines 309–316.",
+      "freshness_policy": "Recheck NASA methodology page within 24 months; recheck named detections/examples at use time.",
+      "notes": "Normalized from RAC-001 evidence. Scope intentionally narrowed from broad remote observation to transit spectroscopy. Source artifact hash was not obtained in the research environment. Owner approved first-tranche Story use on 2026-09-26 after evidence review. Inclusion remains optional; approval does not create a Deep Note quota. Source retrieval/verification date is 2026-09-26; exact original artifact bytes were not available to the research environment, so source_artifact_hash remains null and URL/locator/evidence refs are retained.",
+      "asset_status": "APPROVED_FOR_STORY",
+      "verification_status": "VERIFIED",
+      "approval_status": "APPROVED_FOR_STORY",
+      "last_verified": "2026-09-26",
+      "review_due": "2028-09-26",
+      "source_retrieved_at": "2026-09-26T10:18:00+08:00",
+      "source_artifact_hash": null,
+      "verification_evidence_ref": "reports/reference-asset-evidence-rac-001-010/RAC-001.md@ecab47f7ca23a74fc5d31a27bd671b461ed1c2fc",
+      "verified_by_role": "OWNER_FIRST_TRANCHE_VERIFIER",
+      "approval_record": {
+        "record_id": "OWNER-APPROVAL-2026-09-26-RAC-001",
+        "decision": "APPROVED_FOR_STORY",
+        "evidence_ref": "reports/reference-asset-evidence-rac-001-010/RAC-001.md@ecab47f7ca23a74fc5d31a27bd671b461ed1c2fc; Owner decision recorded in Issue #17"
+      },
+      "approved_by_role": "OWNER",
+      "approved_at": "2026-09-26T10:18:00+08:00"
+    },
+    {
+      "asset_id": "RAC-002",
+      "title": "Habitable zone does not mean inhabited",
+      "topic": "Habitable-zone classification and inference limits",
+      "source_org": "NASA Science / NASA Astrobiology",
+      "source_url": "https://science.nasa.gov/exoplanets/habitable-zone/",
+      "source_tier": "Tier S",
+      "truth_domain": "REAL_WORLD_FACT",
+      "truth_label": "FACT",
+      "core_fact": "A habitable-zone classification describes orbital conditions under which surface liquid water may be possible in a defined model; it does not confirm that a world has life.",
+      "what_it_does_not_prove": [
+        "Life exists on a planet in the zone.",
+        "A planet is actually habitable without relevant atmospheric, geological, and other evidence.",
+        "A planet is safe or suitable for people.",
+        "A planet outside a simplified zone cannot support any life under any conditions."
+      ],
+      "age_band": {
+        "min_age": 9,
+        "max_age": 16
+      },
+      "story_use_mode": [
+        "DEEP_NOTE",
+        "EVIDENCE"
+      ],
+      "preferred_voice": null,
+      "source_locator": "NASA Science ‘Fast facts: What is the Habitable Zone?’; supporting caution also recorded from NASA Astrobiology’s Kepler-186f article.",
+      "freshness_policy": "Recheck NASA definition within 24 months; any named planet/example must be checked at use time.",
+      "notes": "Secondary evidence URL and historical-example context remain in RAC-002.md. Source artifact hash was not obtained. Owner approved first-tranche Story use on 2026-09-26 after evidence review. Inclusion remains optional; approval does not create a Deep Note quota. Source retrieval/verification date is 2026-09-26; exact original artifact bytes were not available to the research environment, so source_artifact_hash remains null and URL/locator/evidence refs are retained.",
+      "asset_status": "APPROVED_FOR_STORY",
+      "verification_status": "VERIFIED",
+      "approval_status": "APPROVED_FOR_STORY",
+      "last_verified": "2026-09-26",
+      "review_due": "2028-09-26",
+      "source_retrieved_at": "2026-09-26T10:18:00+08:00",
+      "source_artifact_hash": null,
+      "verification_evidence_ref": "reports/reference-asset-evidence-rac-001-010/RAC-002.md@ecab47f7ca23a74fc5d31a27bd671b461ed1c2fc",
+      "verified_by_role": "OWNER_FIRST_TRANCHE_VERIFIER",
+      "approval_record": {
+        "record_id": "OWNER-APPROVAL-2026-09-26-RAC-002",
+        "decision": "APPROVED_FOR_STORY",
+        "evidence_ref": "reports/reference-asset-evidence-rac-001-010/RAC-002.md@ecab47f7ca23a74fc5d31a27bd671b461ed1c2fc; Owner decision recorded in Issue #17"
+      },
+      "approved_by_role": "OWNER",
+      "approved_at": "2026-09-26T10:18:00+08:00"
+    },
+    {
+      "asset_id": "RAC-003",
+      "title": "Europa subsurface-ocean inference",
+      "topic": "Evidence for an inferred ocean beneath Europa’s ice",
+      "source_org": "NASA / NASA-JPL mission science",
+      "source_url": "https://science.nasa.gov/mission/europa-clipper/why-europa-evidence-for-an-ocean/",
+      "source_tier": "Tier S",
+      "truth_domain": "REAL_WORLD_FACT",
+      "truth_label": "HYPOTHESIS",
+      "core_fact": "Multiple independent observations, including Galileo magnetic measurements, strongly support the inference that Europa has a global salty ocean beneath its ice.",
+      "what_it_does_not_prove": [
+        "Life exists in Europa’s ocean.",
+        "The ocean’s exact depth, salinity, chemistry, or habitability is already established.",
+        "A suspected plume is a confirmed ocean sample.",
+        "Current or future mission objectives are already completed results."
+      ],
+      "age_band": {
+        "min_age": 9,
+        "max_age": 16
+      },
+      "story_use_mode": [
+        "DEEP_NOTE",
+        "BACKGROUND_ONLY",
+        "EVIDENCE"
+      ],
+      "preferred_voice": null,
+      "source_locator": "NASA ‘Evidence for an Ocean’ sections ‘Why We Think Europa Has an Ocean’ and ‘Galileo’.",
+      "freshness_policy": "Stable evidence claim: review within 24 months. Mission status/objectives are excluded from core_fact and must be checked separately when mentioned.",
+      "notes": "B2 review required splitting stable ocean inference from time-sensitive Europa Clipper mission status; this normalized record does so. Source artifact hash was not obtained. Owner approved first-tranche Story use on 2026-09-26 after evidence review. Inclusion remains optional; approval does not create a Deep Note quota. Source retrieval/verification date is 2026-09-26; exact original artifact bytes were not available to the research environment, so source_artifact_hash remains null and URL/locator/evidence refs are retained.",
+      "asset_status": "APPROVED_FOR_STORY",
+      "verification_status": "VERIFIED",
+      "approval_status": "APPROVED_FOR_STORY",
+      "last_verified": "2026-09-26",
+      "review_due": "2028-09-26",
+      "source_retrieved_at": "2026-09-26T10:18:00+08:00",
+      "source_artifact_hash": null,
+      "verification_evidence_ref": "reports/reference-asset-evidence-rac-001-010/RAC-003.md@ecab47f7ca23a74fc5d31a27bd671b461ed1c2fc",
+      "verified_by_role": "OWNER_FIRST_TRANCHE_VERIFIER",
+      "approval_record": {
+        "record_id": "OWNER-APPROVAL-2026-09-26-RAC-003",
+        "decision": "APPROVED_FOR_STORY",
+        "evidence_ref": "reports/reference-asset-evidence-rac-001-010/RAC-003.md@ecab47f7ca23a74fc5d31a27bd671b461ed1c2fc; Owner decision recorded in Issue #17"
+      },
+      "approved_by_role": "OWNER",
+      "approved_at": "2026-09-26T10:18:00+08:00"
+    },
+    {
+      "asset_id": "RAC-004",
+      "title": "Planetary protection and contamination control",
+      "topic": "NASA planetary-protection requirements for covered missions",
+      "source_org": "NASA Office of Safety and Mission Assurance",
+      "source_url": "https://nodis3.gsfc.nasa.gov/displayDir.cfm?c=8715&s=24&t=NPR",
+      "source_tier": "Tier S",
+      "truth_domain": "REAL_WORLD_FACT",
+      "truth_label": "SAFETY_RULE",
+      "core_fact": "NASA planetary-protection policy limits biological or relevant molecular contamination for covered robotic missions, with requirements depending on target and mission type.",
+      "what_it_does_not_prove": [
+        "Every space mission is subject to identical procedures.",
+        "Every mission component is sterile.",
+        "NASA robotic-mission rules apply unchanged to all private, crewed, or foreign missions.",
+        "A policy category is evidence of life at a target."
+      ],
+      "age_band": {
+        "min_age": 9,
+        "max_age": 16
+      },
+      "story_use_mode": [
+        "RULE",
+        "BACKGROUND_ONLY",
+        "DEEP_NOTE"
+      ],
+      "preferred_voice": null,
+      "source_locator": "NPR 8715.24 Chapter 1 §§1.1.1–1.2.1; related NASA-STD-8719.27 and handbook references are recorded in RAC-004.md.",
+      "freshness_policy": "Policy asset: recheck at least every 6 months and on NASA/COSPAR/Outer Space Treaty policy changes.",
+      "notes": "Scope remains explicitly NASA/covered missions; it must not be generalized into universal international law. Source artifact hash was not obtained. Owner approved first-tranche Story use on 2026-09-26 after evidence review. Inclusion remains optional; approval does not create a Deep Note quota. Source retrieval/verification date is 2026-09-26; exact original artifact bytes were not available to the research environment, so source_artifact_hash remains null and URL/locator/evidence refs are retained.",
+      "asset_status": "APPROVED_FOR_STORY",
+      "verification_status": "VERIFIED",
+      "approval_status": "APPROVED_FOR_STORY",
+      "last_verified": "2026-09-26",
+      "review_due": "2027-03-26",
+      "source_retrieved_at": "2026-09-26T10:18:00+08:00",
+      "source_artifact_hash": null,
+      "verification_evidence_ref": "reports/reference-asset-evidence-rac-001-010/RAC-004.md@ecab47f7ca23a74fc5d31a27bd671b461ed1c2fc",
+      "verified_by_role": "OWNER_FIRST_TRANCHE_VERIFIER",
+      "approval_record": {
+        "record_id": "OWNER-APPROVAL-2026-09-26-RAC-004",
+        "decision": "APPROVED_FOR_STORY",
+        "evidence_ref": "reports/reference-asset-evidence-rac-001-010/RAC-004.md@ecab47f7ca23a74fc5d31a27bd671b461ed1c2fc; Owner decision recorded in Issue #17"
+      },
+      "approved_by_role": "OWNER",
+      "approved_at": "2026-09-26T10:18:00+08:00"
+    },
+    {
+      "asset_id": "RAC-006",
+      "title": "How IPCC AR6 communicates confidence and likelihood",
+      "topic": "IPCC uncertainty communication",
+      "source_org": "Intergovernmental Panel on Climate Change (IPCC)",
+      "source_url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-1/",
+      "source_tier": "Tier A",
+      "truth_domain": "REAL_WORLD_FACT",
+      "truth_label": "FACT",
+      "core_fact": "IPCC AR6 Working Group I assesses confidence using evidence and agreement, and uses calibrated likelihood language when there is a sufficient probabilistic basis.",
+      "what_it_does_not_prove": [
+        "IPCC’s calibrated categories apply to all scientific institutions or all research papers.",
+        "Low confidence means a claim is false or all alternatives have equal support.",
+        "A model output is an observation or any model result is reliable without validation.",
+        "A probability can be assigned without evidence or a defined outcome."
+      ],
+      "age_band": {
+        "min_age": 12,
+        "max_age": 16
+      },
+      "story_use_mode": [
+        "DEEP_NOTE",
+        "TOOL",
+        "BACKGROUND_ONLY"
+      ],
+      "preferred_voice": null,
+      "source_locator": "IPCC AR6 WGI Chapter 1, Box 1.1 ‘Treatment of Uncertainty and Calibrated Uncertainty Language in AR6’.",
+      "freshness_policy": "Review on a new IPCC assessment/method note; otherwise within 24 months.",
+      "notes": "Deliberately institution-scoped; not a universal rule for all science. Tier A is based on formal scientific-assessment-source status. Owner approved first-tranche Story use on 2026-09-26 after evidence review. Inclusion remains optional; approval does not create a Deep Note quota. Source retrieval/verification date is 2026-09-26; exact original artifact bytes were not available to the research environment, so source_artifact_hash remains null and URL/locator/evidence refs are retained.",
+      "asset_status": "APPROVED_FOR_STORY",
+      "verification_status": "VERIFIED",
+      "approval_status": "APPROVED_FOR_STORY",
+      "last_verified": "2026-09-26",
+      "review_due": "2028-09-26",
+      "source_retrieved_at": "2026-09-26T10:18:00+08:00",
+      "source_artifact_hash": null,
+      "verification_evidence_ref": "reports/reference-asset-evidence-rac-001-010/RAC-006.md@ecab47f7ca23a74fc5d31a27bd671b461ed1c2fc",
+      "verified_by_role": "OWNER_FIRST_TRANCHE_VERIFIER",
+      "approval_record": {
+        "record_id": "OWNER-APPROVAL-2026-09-26-RAC-006",
+        "decision": "APPROVED_FOR_STORY",
+        "evidence_ref": "reports/reference-asset-evidence-rac-001-010/RAC-006.md@ecab47f7ca23a74fc5d31a27bd671b461ed1c2fc; Owner decision recorded in Issue #17"
+      },
+      "approved_by_role": "OWNER",
+      "approved_at": "2026-09-26T10:18:00+08:00"
+    },
+    {
+      "asset_id": "RAC-007",
+      "title": "Generative-AI confabulation risk",
+      "topic": "NIST-defined generative-AI confabulation",
+      "source_org": "National Institute of Standards and Technology (NIST)",
+      "source_url": "https://doi.org/10.6028/NIST.AI.600-1",
+      "source_tier": "Tier A",
+      "truth_domain": "REAL_WORLD_FACT",
+      "truth_label": "FACT",
+      "core_fact": "NIST identifies confidently presented false or erroneous generated content (‘confabulation’) as a risk for generative AI.",
+      "what_it_does_not_prove": [
+        "Every AI answer is false or unreliable.",
+        "A named model or current product has a particular error rate.",
+        "All generative systems behave identically.",
+        "NIST requires every user to use the same verification workflow.",
+        "External evidence checks guarantee correctness."
+      ],
+      "age_band": {
+        "min_age": 9,
+        "max_age": 16
+      },
+      "story_use_mode": [
+        "DEEP_NOTE",
+        "RULE",
+        "TOOL"
+      ],
+      "preferred_voice": null,
+      "source_locator": "NIST AI 600-1, §2 risk 2 ‘Confabulation’, pp. 12–13; publication record also cited in RAC-007.md.",
+      "freshness_policy": "Review at least every 12 months and whenever NIST AI 600-1/profile is revised; product-specific claims require separate versioned evidence.",
+      "notes": "One of the strongest first-shelf AI assets. The source supports the risk definition, not a universal user-side verification ritual. Owner approved first-tranche Story use on 2026-09-26 after evidence review. Inclusion remains optional; approval does not create a Deep Note quota. Source retrieval/verification date is 2026-09-26; exact original artifact bytes were not available to the research environment, so source_artifact_hash remains null and URL/locator/evidence refs are retained.",
+      "asset_status": "APPROVED_FOR_STORY",
+      "verification_status": "VERIFIED",
+      "approval_status": "APPROVED_FOR_STORY",
+      "last_verified": "2026-09-26",
+      "review_due": "2027-09-26",
+      "source_retrieved_at": "2026-09-26T10:18:00+08:00",
+      "source_artifact_hash": null,
+      "verification_evidence_ref": "reports/reference-asset-evidence-rac-001-010/RAC-007.md@ecab47f7ca23a74fc5d31a27bd671b461ed1c2fc",
+      "verified_by_role": "OWNER_FIRST_TRANCHE_VERIFIER",
+      "approval_record": {
+        "record_id": "OWNER-APPROVAL-2026-09-26-RAC-007",
+        "decision": "APPROVED_FOR_STORY",
+        "evidence_ref": "reports/reference-asset-evidence-rac-001-010/RAC-007.md@ecab47f7ca23a74fc5d31a27bd671b461ed1c2fc; Owner decision recorded in Issue #17"
+      },
+      "approved_by_role": "OWNER",
+      "approved_at": "2026-09-26T10:18:00+08:00"
+    },
+    {
+      "asset_id": "RAC-008",
+      "title": "UNESCO MIL guidance on evaluating information and providers",
+      "topic": "Information/source evaluation in UNESCO media and information literacy",
+      "source_org": "UNESCO",
+      "source_url": "https://www.unesco.org/mil4teachers/sites/default/files/medias/fichiers/2023/10/Part_1_CI%20MIL_CURRICULUM.pdf",
+      "source_tier": "Tier S",
+      "truth_domain": "REAL_WORLD_FACT",
+      "truth_label": "FACT",
+      "core_fact": "UNESCO’s Media and Information Literacy curriculum includes evaluating information, content, and providers, and notes that educational and media content can be biased, incomplete, or erroneous.",
+      "what_it_does_not_prove": [
+        "A source from a named category is always true or unbiased.",
+        "Comparing two sources always resolves a disputed claim.",
+        "Every learner using the curriculum will improve measured media literacy.",
+        "UNESCO specifies one universal ranking of sources independent of the information need."
+      ],
+      "age_band": {
+        "min_age": 9,
+        "max_age": 16
+      },
+      "story_use_mode": [
+        "DEEP_NOTE",
+        "TOOL",
+        "BACKGROUND_ONLY"
+      ],
+      "preferred_voice": null,
+      "source_locator": "UNESCO MIL Curriculum Part 1, pp. 25–27, section ‘Evaluation of Information, Media and Digital Communications’.",
+      "freshness_policy": "Recheck on UNESCO edition update; otherwise within 24 months.",
+      "notes": "This record is a fact about UNESCO’s published curriculum/guidance, not an efficacy study. Generalized normative reuse must retain the named-source guidance context. Owner approved first-tranche Story use on 2026-09-26 after evidence review. Inclusion remains optional; approval does not create a Deep Note quota. Source retrieval/verification date is 2026-09-26; exact original artifact bytes were not available to the research environment, so source_artifact_hash remains null and URL/locator/evidence refs are retained.",
+      "asset_status": "APPROVED_FOR_STORY",
+      "verification_status": "VERIFIED",
+      "approval_status": "APPROVED_FOR_STORY",
+      "last_verified": "2026-09-26",
+      "review_due": "2028-09-26",
+      "source_retrieved_at": "2026-09-26T10:18:00+08:00",
+      "source_artifact_hash": null,
+      "verification_evidence_ref": "reports/reference-asset-evidence-rac-001-010/RAC-008.md@ecab47f7ca23a74fc5d31a27bd671b461ed1c2fc",
+      "verified_by_role": "OWNER_FIRST_TRANCHE_VERIFIER",
+      "approval_record": {
+        "record_id": "OWNER-APPROVAL-2026-09-26-RAC-008",
+        "decision": "APPROVED_FOR_STORY",
+        "evidence_ref": "reports/reference-asset-evidence-rac-001-010/RAC-008.md@ecab47f7ca23a74fc5d31a27bd671b461ed1c2fc; Owner decision recorded in Issue #17"
+      },
+      "approved_by_role": "OWNER",
+      "approved_at": "2026-09-26T10:18:00+08:00"
+    },
+    {
+      "asset_id": "RAC-009",
+      "title": "W3C WAI guidance on image alternatives",
+      "topic": "Context-sensitive image alternatives in web accessibility guidance",
+      "source_org": "World Wide Web Consortium (W3C), Web Accessibility Initiative",
+      "source_url": "https://www.w3.org/WAI/tutorials/images/",
+      "source_tier": "Tier A",
+      "truth_domain": "REAL_WORLD_FACT",
+      "truth_label": "FACT",
+      "core_fact": "W3C WAI guidance says image alternatives should reflect an image’s relevant information or function in context, and complex informative images may require a fuller equivalent.",
+      "what_it_does_not_prove": [
+        "A particular visual design is universally easier to perceive.",
+        "Image size, contrast, or style has one effect for all viewers and contexts.",
+        "All meaningful visual evidence must be narrated or text can replace every visual experience.",
+        "The WAI tutorial validates a specific Galaxy visual design."
+      ],
+      "age_band": {
+        "min_age": 9,
+        "max_age": 16
+      },
+      "story_use_mode": [
+        "TOOL",
+        "DEEP_NOTE",
+        "BACKGROUND_ONLY"
+      ],
+      "preferred_voice": null,
+      "source_locator": "W3C WAI Images Tutorial sections on informative, decorative, functional and complex images; related informative-images page cited in RAC-009.md.",
+      "freshness_policy": "Check on W3C/WCAG revision; otherwise within 24 months. Use exact WCAG edition if claiming compliance.",
+      "notes": "This record is about W3C accessibility guidance, not a universal empirical law about child perception or visual preference. Owner approved first-tranche Story use on 2026-09-26 after evidence review. Inclusion remains optional; approval does not create a Deep Note quota. Source retrieval/verification date is 2026-09-26; exact original artifact bytes were not available to the research environment, so source_artifact_hash remains null and URL/locator/evidence refs are retained.",
+      "asset_status": "APPROVED_FOR_STORY",
+      "verification_status": "VERIFIED",
+      "approval_status": "APPROVED_FOR_STORY",
+      "last_verified": "2026-09-26",
+      "review_due": "2028-09-26",
+      "source_retrieved_at": "2026-09-26T10:18:00+08:00",
+      "source_artifact_hash": null,
+      "verification_evidence_ref": "reports/reference-asset-evidence-rac-001-010/RAC-009.md@ecab47f7ca23a74fc5d31a27bd671b461ed1c2fc",
+      "verified_by_role": "OWNER_FIRST_TRANCHE_VERIFIER",
+      "approval_record": {
+        "record_id": "OWNER-APPROVAL-2026-09-26-RAC-009",
+        "decision": "APPROVED_FOR_STORY",
+        "evidence_ref": "reports/reference-asset-evidence-rac-001-010/RAC-009.md@ecab47f7ca23a74fc5d31a27bd671b461ed1c2fc; Owner decision recorded in Issue #17"
+      },
+      "approved_by_role": "OWNER",
+      "approved_at": "2026-09-26T10:18:00+08:00"
+    },
+    {
+      "asset_id": "RAC-010",
+      "title": "Digital.gov usability testing with prototypes",
+      "topic": "Observing intended users performing tasks with products/prototypes",
+      "source_org": "U.S. General Services Administration (GSA), Digital.gov",
+      "source_url": "https://digital.gov/guides/research-collaboration/testing/usability",
+      "source_tier": "Tier A",
+      "truth_domain": "REAL_WORLD_FACT",
+      "truth_label": "FACT",
+      "core_fact": "Digital.gov’s usability guide describes observing intended users as they attempt realistic tasks with a product or prototype as one way to identify design issues and user needs.",
+      "what_it_does_not_prove": [
+        "Testing guarantees a design will meet every user’s needs.",
+        "The guide’s method is the only valid design or research method.",
+        "A test with one user or one task is sufficient for all purposes.",
+        "Observed behavior automatically explains why the behavior occurred."
+      ],
+      "age_band": {
+        "min_age": 9,
+        "max_age": 16
+      },
+      "story_use_mode": [
+        "TOOL",
+        "DEEP_NOTE",
+        "BACKGROUND_ONLY"
+      ],
+      "preferred_voice": null,
+      "source_locator": "Digital.gov ‘Usability testing’ guide, sections ‘What’, ‘Why’, and steps 1–7; step 1 permits a sketch or prototype.",
+      "freshness_policy": "Source page has no displayed revision date; review on page change and at least every 12 months.",
+      "notes": "This is a source-scoped public-sector practice-guide proposition, not causal proof that one test guarantees usability. Owner approved first-tranche Story use on 2026-09-26 after evidence review. Inclusion remains optional; approval does not create a Deep Note quota. Source retrieval/verification date is 2026-09-26; exact original artifact bytes were not available to the research environment, so source_artifact_hash remains null and URL/locator/evidence refs are retained.",
+      "asset_status": "APPROVED_FOR_STORY",
+      "verification_status": "VERIFIED",
+      "approval_status": "APPROVED_FOR_STORY",
+      "last_verified": "2026-09-26",
+      "review_due": "2027-09-26",
+      "source_retrieved_at": "2026-09-26T10:18:00+08:00",
+      "source_artifact_hash": null,
+      "verification_evidence_ref": "reports/reference-asset-evidence-rac-001-010/RAC-010.md@ecab47f7ca23a74fc5d31a27bd671b461ed1c2fc",
+      "verified_by_role": "OWNER_FIRST_TRANCHE_VERIFIER",
+      "approval_record": {
+        "record_id": "OWNER-APPROVAL-2026-09-26-RAC-010",
+        "decision": "APPROVED_FOR_STORY",
+        "evidence_ref": "reports/reference-asset-evidence-rac-001-010/RAC-010.md@ecab47f7ca23a74fc5d31a27bd671b461ed1c2fc; Owner decision recorded in Issue #17"
+      },
+      "approved_by_role": "OWNER",
+      "approved_at": "2026-09-26T10:18:00+08:00"
+    }
+  ]
+}
