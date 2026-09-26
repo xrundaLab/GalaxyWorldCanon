@@ -1,0 +1,46 @@
+changeset:
+  change_id: GWC-REFERENCE-ASSET-REGISTRY-FIRST-TRANCHE-2026-09-R2
+  release_id: GALAXY-CONTENT-2026.09-R2
+  status: APPROVED_FOR_RELEASE
+  change_class: REFERENCE_UPDATE
+  summary: Publish the first Owner-approved Reference Asset Registry tranche and route it through the shared Resource Catalog.
+  changed_sources:
+    - repository: xrundaLab/GalaxyWorldCanon
+      path: 00_ENGINEERING/resources/GALAXY_APPROVED_REFERENCE_ASSET_REGISTRY_V0.1.json
+      git_blob: ada8b2cfcaab1d7982fb1d50c40baf432916ee5b
+      sha256: 24cf6e9e8b443c68df54bdb62d155944a072ebf579e722d1b048441504807a58
+    - repository: xrundaLab/GalaxyWorldCanon
+      path: 00_ENGINEERING/resources/GALAXY_RESOURCE_CATALOG.json
+      git_blob: 0e697163946eaf1092aa21915254f4a3ffddb594
+      sha256: d4ed004629e654462f0c1e9d6c1b1436fc507b41887d93099dd5fbd37739cc7f
+  added:
+    - Nine Owner-approved Reference Assets: RAC-001, RAC-002, RAC-003, RAC-004, RAC-006, RAC-007, RAC-008, RAC-009, RAC-010
+    - Active Catalog route for the approved Reference Asset Registry
+  changed: []
+  deprecated: []
+  removed: []
+  held_or_excluded:
+    - RAC-005
+  impact:
+    content: LOW
+    schema: NONE
+    engineering: LOW
+    state: NONE
+    episodes: LOW
+    qa: LOW
+  migration:
+    required: false
+    migration_type: NONE
+  regeneration:
+    required: false
+    scope: []
+  affected_episode_ids: []
+  required_issues:
+    - xrundaLab/galaxy-story-reference-kernel#17
+    - xrundaLab/GalaxyWorldCanon#3
+  approval_required:
+    canon_owner: true
+    engineering_owner: true
+  approval_record:
+    canon_owner: OWNER_APPROVED_FIRST_REFERENCE_TRANCHE_IN_ISSUE_17
+    engineering_review: CHATGPT_TECHNICAL_REVIEW_PASS_GALAXYWORLDCANON_PR_4_2026-09-26
