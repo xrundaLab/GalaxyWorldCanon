@@ -1,0 +1,876 @@
+{
+  "catalog_id": "GALAXY_RESOURCE_CATALOG",
+  "catalog_candidate_id": "GALAXY_RESOURCE_CATALOG_ACTIVATION_RC1",
+  "schema_version": "0.1-candidate-b2",
+  "status": "RELEASE_CANDIDATE_NOT_ACTIVE",
+  "intended_home": {
+    "repository": "xrundaLab/GalaxyWorldCanon",
+    "path": "00_ENGINEERING/resources/GALAXY_RESOURCE_CATALOG.json"
+  },
+  "catalog_revision": {
+    "source_repository": "xrundaLab/GalaxyWorldCanon",
+    "source_branch": "resource/map-prehistory-catalog-activation-rc1",
+    "active_revision": false,
+    "publication_commit_recorded_externally": true,
+    "revision_resolution": "Story runs pin this Catalog externally by repo/path/commit/blob/SHA-256. Same-repo projection records resolve at that pinned Catalog revision; the Catalog never self-hashes."
+  },
+  "status_vocabularies": {
+    "authority_status": [
+      "ACTIVE_AUTHORITY",
+      "QUALITY_REFERENCE",
+      "GOVERNANCE_ONLY",
+      "PRODUCTION_ONLY",
+      "HISTORY_ONLY",
+      "NOT_ACTIVE"
+    ],
+    "maturity_status": [
+      "STABLE",
+      "CANDIDATE",
+      "WORKING_DRAFT",
+      "RECONSTRUCTED_BASELINE",
+      "DEPRECATED"
+    ],
+    "lifecycle_class": [
+      "ACTIVE_ALWAYS",
+      "ACTIVE_ON_DEMAND",
+      "PRODUCTION_ONLY",
+      "QUALITY_REFERENCE",
+      "GOVERNANCE_ONLY",
+      "HISTORY_ONLY",
+      "CANDIDATE_NOT_APPROVED",
+      "ORPHANED_OR_UNMIGRATED"
+    ]
+  },
+  "revision_policy": "Catalog edits produce a new source-repository commit and file hash. Publication commit is external Git provenance, not embedded in the bytes it identifies. A new Story run pins the exact approved Catalog revision; no moving-main adoption.",
+  "content_boundary": "Router/index metadata only. This B2 candidate proposes future routing for Map and Prehistory release candidates; it does not activate resources or introduce source facts.",
+  "resources": [
+    {
+      "resource_id": "GWC-README-ROUTING",
+      "resource_type": "AUTHORITY_ROUTING_README",
+      "source_repo": "xrundaLab/GalaxyWorldCanon",
+      "source_path": "README.md",
+      "source_revision": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+      "git_blob": "1d9ea3ec8e1cdf49598850d7342a6343d1f7448f",
+      "sha256": "d55701a0a1d69916dbde0c0bd75798281f6f7d5bf5ad45f13f2d02f5e712e7e2",
+      "authority_status": "GOVERNANCE_ONLY",
+      "maturity_status": null,
+      "lifecycle_class": "GOVERNANCE_ONLY",
+      "allowed_consumers": [
+        "PLAN_C_STORY_KERNEL",
+        "PLAN_B_ENGINEERING",
+        "CANON_GOVERNANCE"
+      ],
+      "retrieval_mode": "REQUIRED_ROUTING_METADATA",
+      "scope": "Routes downstream consumers to the current source bundle; does not replace each resource's subject authority.",
+      "lifecycle": {
+        "effective_from": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "deprecated_by": null,
+        "approval_evidence": "Repository README declares 01_SOURCE_OF_TRUTH as the current highest world-authority route."
+      },
+      "projection_ref": null,
+      "notes": "No explicit maturity label is asserted in the pinned README; it is a routing document."
+    },
+    {
+      "resource_id": "GWC-WORLD-CANON-V1",
+      "resource_type": "WORLD_CANON",
+      "source_repo": "xrundaLab/GalaxyWorldCanon",
+      "source_path": "01_SOURCE_OF_TRUTH/银河 World Canon - 世界圣经 v1.0.md",
+      "source_revision": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+      "git_blob": "baf44f108724fcefcffd125575c61437b5bdce72",
+      "sha256": "bf7fce77f9b532d8d2b0526c6f1814a65881609c1b9834f42da4fb0d91d20617",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "lifecycle_class": "ACTIVE_ALWAYS",
+      "allowed_consumers": [
+        "PLAN_C_STORY_KERNEL",
+        "PLAN_B_ENGINEERING"
+      ],
+      "retrieval_mode": "PINNED_SOURCE_OR_REVIEWED_PROJECTION",
+      "scope": "Galaxy world facts and declared epistemic boundaries.",
+      "lifecycle": {
+        "effective_from": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "deprecated_by": null,
+        "approval_evidence": "README source-of-truth route; formal source header remains CANON CANDIDATE."
+      },
+      "projection_ref": null,
+      "notes": "Active route does not upgrade candidate maturity."
+    },
+    {
+      "resource_id": "GWC-CHARACTER-PACK-V01",
+      "resource_type": "CHARACTER_PACK",
+      "source_repo": "xrundaLab/GalaxyWorldCanon",
+      "source_path": "01_SOURCE_OF_TRUTH/银河角色生态与 Character Pack v0.1.md",
+      "source_revision": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+      "git_blob": "1f9ae1a661b467b035da6fbb52c8427159bfda38",
+      "sha256": "78f68d6bace932ed57e51b87c4e9d169ead135c66744ea5a37953a30e87b17c6",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "WORKING_DRAFT",
+      "lifecycle_class": "ACTIVE_ALWAYS",
+      "allowed_consumers": [
+        "PLAN_C_STORY_KERNEL",
+        "PLAN_B_ENGINEERING"
+      ],
+      "retrieval_mode": "PINNED_SOURCE_OR_REVIEWED_PROJECTION",
+      "scope": "Character identity and explicitly sourced character guidance.",
+      "lifecycle": {
+        "effective_from": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "deprecated_by": null,
+        "approval_evidence": "README source-of-truth route; preserve working-draft label."
+      },
+      "projection_ref": null,
+      "notes": "No biography or stable traits may be added from registry convenience."
+    },
+    {
+      "resource_id": "GWC-PREHISTORY-TIMELINE-V01",
+      "resource_type": "PREHISTORY_TIMELINE",
+      "source_repo": "xrundaLab/GalaxyWorldCanon",
+      "source_path": "01_SOURCE_OF_TRUTH/银河前史与人物历史骨架 v0.1.md",
+      "source_revision": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+      "git_blob": "880bfa5f19ab5845c3c146661df03e4a1740ecf6",
+      "sha256": "b65885f15c9b86eb77ba2fbf1985755a2d6b2e2009577600bd5de68ac243a1ca",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "lifecycle_class": "ACTIVE_ALWAYS",
+      "allowed_consumers": [
+        "PLAN_C_STORY_KERNEL",
+        "CANON_GOVERNANCE"
+      ],
+      "retrieval_mode": "STRUCTURED_INDEX_THEN_BOUNDED_DETAIL",
+      "scope": "Routed current historical source; individual candidate/unknown labels remain intact.",
+      "lifecycle": {
+        "effective_from": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "deprecated_by": null,
+        "approval_evidence": "README source-of-truth route; document header is CANON CANDIDATE."
+      },
+      "projection_ref": {
+        "candidate_path": "reports/resource-architecture-phase-b1/GALAXY_PREHISTORY_INDEX_CANDIDATE.json",
+        "active": false,
+        "resource_id": "GWC-PREHISTORY-INDEX"
+      },
+      "notes": "Index must preserve unknown vs not recorded and epistemic visibility."
+    },
+    {
+      "resource_id": "GWC-SPATIAL-MAP-V01",
+      "resource_type": "SPATIAL_MAP",
+      "source_repo": "xrundaLab/GalaxyWorldCanon",
+      "source_path": "01_SOURCE_OF_TRUTH/银河空间地图与固定场所骨架 v0.1.md",
+      "source_revision": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+      "git_blob": "b740677de420641ff6f7fb5e35b13fca76946f75",
+      "sha256": "cda9f68766a8f0c709775015ce71b3ffed143401bfd77fc60f45eb7d2f1cef36",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "lifecycle_class": "ACTIVE_ALWAYS",
+      "allowed_consumers": [
+        "PLAN_C_STORY_KERNEL",
+        "CANON_GOVERNANCE"
+      ],
+      "retrieval_mode": "STRUCTURED_INVENTORY_THEN_BOUNDED_LOCATION_DETAIL",
+      "scope": "Routed current spatial source; location-level source status governs eligibility.",
+      "lifecycle": {
+        "effective_from": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "deprecated_by": null,
+        "approval_evidence": "README source-of-truth route; document header is CANON CANDIDATE."
+      },
+      "projection_ref": {
+        "candidate_path": "reports/resource-architecture-phase-b1/GALAXY_MAP_INDEX_CANDIDATE.json",
+        "active": false,
+        "resource_id": "GWC-MAP-INDEX"
+      },
+      "notes": "All 8 source IDs are inventoried; source candidate/undecided status is not upgraded."
+    },
+    {
+      "resource_id": "GWC-CONTROLLED-REFERENCE-LIBRARY-GOVERNANCE",
+      "resource_type": "REFERENCE_LIBRARY_GOVERNANCE",
+      "source_repo": "xrundaLab/GalaxyWorldCanon",
+      "source_path": "01_SOURCE_OF_TRUTH/银河 Controlled Reference Library v0.1｜受控知识、科幻母题与安全资料库.md",
+      "source_revision": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+      "git_blob": "b6017d79742dcce468a8060705caedd781fc7c7a",
+      "sha256": "af84a79ad3a264be581b4a502e56cd48607085ca380d6b36e2dc2d4628b95f74",
+      "authority_status": "GOVERNANCE_ONLY",
+      "maturity_status": "RECONSTRUCTED_BASELINE",
+      "lifecycle_class": "GOVERNANCE_ONLY",
+      "allowed_consumers": [
+        "CANON_GOVERNANCE",
+        "REFERENCE_CURATOR"
+      ],
+      "retrieval_mode": "GOVERNANCE_RULES_ONLY",
+      "scope": "Defines controlled-source and truth-label policy; is not itself an approved factual asset shelf.",
+      "lifecycle": {
+        "effective_from": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "deprecated_by": null,
+        "approval_evidence": "README routes to this source; source declares reconstructed baseline."
+      },
+      "projection_ref": {
+        "resource_id": "APPROVED-REFERENCE-ASSET-REGISTRY",
+        "relationship": "GOVERNS_SEPARATE_REGISTRY_NOT_FACT_PROJECTION",
+        "candidate_path": "reports/resource-architecture-phase-b1/APPROVED_REFERENCE_ASSET_REGISTRY_CANDIDATE.json",
+        "active": false
+      },
+      "notes": "REF examples are not promoted by this Catalog candidate."
+    },
+    {
+      "resource_id": "GWC-NARRATIVE-PRODUCTION-SPEC-V02",
+      "resource_type": "PRODUCTION_SPEC",
+      "source_repo": "xrundaLab/GalaxyWorldCanon",
+      "source_path": "00_ENGINEERING/银河 Narrative Production Spec v0.2｜单集叙事生产呈现与验收规范.md",
+      "source_revision": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+      "git_blob": "3cfdd61eb8e910e3b3d12e86c4d42e2238c6cad2",
+      "sha256": "c5234263032d3fe28079034844c3e6c65084219084f1c4faceeb868bed08dc2a",
+      "authority_status": "GOVERNANCE_ONLY",
+      "maturity_status": "CANDIDATE",
+      "lifecycle_class": "GOVERNANCE_ONLY",
+      "allowed_consumers": [
+        "PLAN_B_PRODUCTION",
+        "CROSS_ROUTE_POLICY_REVIEW"
+      ],
+      "retrieval_mode": "CLAUSE_LEVEL_RECONCILIATION",
+      "scope": "Plan B production specification and cross-route reconciliation source; not a wholesale Plan C dependency.",
+      "lifecycle": {
+        "effective_from": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "deprecated_by": null,
+        "approval_evidence": "Owner architecture decision in Issue #18; source header remains handoff candidate."
+      },
+      "projection_ref": {
+        "candidate_path": "reports/resource-architecture-phase-b1/NARRATIVE_PRODUCTION_SPEC_REFERENCE_KERNEL_RECONCILIATION_V0.2.md",
+        "active": false
+      },
+      "notes": "Only individually reconciled and approved cross-route clauses may later be projected."
+    },
+    {
+      "resource_id": "GWC-COURSE-WORKBOOK-V507",
+      "resource_type": "CURRICULUM_WORKBOOK",
+      "source_repo": "xrundaLab/GalaxyWorldCanon",
+      "source_path": "01_SOURCE_OF_TRUTH/银河AI学课程信息表_v5.0.7-候选.xlsx",
+      "source_revision": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+      "git_blob": "a067213cd8f7b921d49b6eff646735d4ca4b1448",
+      "sha256": "c0e20fd65467a971564f872205017f99ef283643672aff0165bf5353fb9e4ec3",
+      "authority_status": "NOT_ACTIVE",
+      "maturity_status": "CANDIDATE",
+      "lifecycle_class": "CANDIDATE_NOT_APPROVED",
+      "allowed_consumers": [],
+      "retrieval_mode": "REVIEWED_CURRICULUM_PROJECTION_ONLY",
+      "scope": "Candidate source for series/curriculum metadata; not lesson-specific teaching or assessment override.",
+      "lifecycle": {
+        "effective_from": null,
+        "deprecated_by": null,
+        "approval_evidence": null
+      },
+      "projection_ref": {
+        "resource_id": "CURRICULUM-SERIES-PROJECTION",
+        "candidate_path": "reports/resource-architecture-phase-b1/CURRICULUM_SERIES_PROJECTION_SCHEMA_CANDIDATE.json",
+        "active": false
+      },
+      "notes": "No derivation lineage to lesson final.md is asserted."
+    },
+    {
+      "resource_id": "LESSON-EXECUTION-SOURCE-ROUTE",
+      "resource_type": "LESSON_SOURCE_PINNING_POLICY",
+      "source_repo": null,
+      "source_path": null,
+      "source_revision": null,
+      "git_blob": null,
+      "sha256": null,
+      "authority_status": "GOVERNANCE_ONLY",
+      "maturity_status": null,
+      "lifecycle_class": "GOVERNANCE_ONLY",
+      "allowed_consumers": [
+        "PLAN_C_STORY_KERNEL"
+      ],
+      "retrieval_mode": "PER_RUN_EXACT_VERSIONED_SOURCE_PIN",
+      "scope": "For each run, resolve that lesson’s authoritative final.md as an exact repo/path/commit/blob/SHA-256 dependency. No concrete lesson file is a global Catalog resource.",
+      "lifecycle": {
+        "effective_from": null,
+        "deprecated_by": null,
+        "approval_evidence": "Current Story Kernel Runbook requires a pinned exact lesson source per run."
+      },
+      "projection_ref": null,
+      "notes": "Abstract route/policy record with no file payload. L015 pin remains only in its own run provenance.",
+      "per_run_required_pin_fields": [
+        "repository",
+        "path",
+        "commit",
+        "git_blob",
+        "sha256"
+      ]
+    },
+    {
+      "resource_id": "PLAN_C_ACTIVE_METHOD_SET",
+      "resource_type": "METHOD_DEPENDENCY_ROUTING_SET",
+      "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+      "source_path": null,
+      "source_revision": "053f4f8b97239040dac26754210097cdb60061b2",
+      "git_blob": null,
+      "sha256": null,
+      "authority_status": "GOVERNANCE_ONLY",
+      "maturity_status": null,
+      "lifecycle_class": "ACTIVE_ALWAYS",
+      "allowed_consumers": [
+        "PLAN_C_STORY_KERNEL"
+      ],
+      "retrieval_mode": "PIN_ALL_EXACT_MEMBERS",
+      "scope": "Routing set for the active Plan C Method dependencies at the pinned main baseline; it contains file pointers and hashes, not copied Method rules. V0.1.6 is one member.",
+      "lifecycle": {
+        "effective_from": "053f4f8b97239040dac26754210097cdb60061b2",
+        "deprecated_by": null,
+        "approval_evidence": "Active Runbook and current Method set at pinned Plan C main."
+      },
+      "projection_ref": null,
+      "notes": "New runs resolve active approved members as a set; historical runs retain their own frozen dependency list.",
+      "members": [
+        {
+          "member_role": "METHOD_BASE",
+          "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+          "source_path": "method/reference-kernel/REFERENCE_KERNEL_METHOD_V0.1.md",
+          "source_revision": "053f4f8b97239040dac26754210097cdb60061b2",
+          "git_blob": "aad8da87533bfaba6d9f823439d9e9f1ba18a26f",
+          "sha256": "4c09828b0282620ff85352832c99c11033c5860d79f25cc3746b1d8dfbdd09dd"
+        },
+        {
+          "member_role": "METHOD_CLARIFICATION_V0_1_1",
+          "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+          "source_path": "method/reference-kernel/REFERENCE_KERNEL_METHOD_V0.1.1_PRE_G4_CLARIFICATIONS.md",
+          "source_revision": "053f4f8b97239040dac26754210097cdb60061b2",
+          "git_blob": "2f582ab5870c9c1c0fd2949929a95b282d7c8549",
+          "sha256": "57afbf6a395a56231dc8f033fb028e17fe2d606780e11b1b9ed83f00c1809d8d"
+        },
+        {
+          "member_role": "METHOD_CLARIFICATION_V0_1_2",
+          "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+          "source_path": "method/reference-kernel/REFERENCE_KERNEL_METHOD_V0.1.2_G4_CANON_LEVERAGE_CLARIFICATION.md",
+          "source_revision": "053f4f8b97239040dac26754210097cdb60061b2",
+          "git_blob": "336778838063813bac986db2ab7224d51f8b56b8",
+          "sha256": "51de7e36c61c0810f09fba811378eef9e02ffca836fb13f58d8e5446db4848cd"
+        },
+        {
+          "member_role": "METHOD_CLARIFICATION_V0_1_3",
+          "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+          "source_path": "method/reference-kernel/REFERENCE_KERNEL_METHOD_V0.1.3_G4_CAST_RESOLUTION_CLARIFICATION.md",
+          "source_revision": "053f4f8b97239040dac26754210097cdb60061b2",
+          "git_blob": "9e00c9cbb897b142572e2fcbf7fd8ed2f31bb0d7",
+          "sha256": "7a8878cd15b68fc3e5c6813365e83a0e9c22ac703531a295c031164dab0596db"
+        },
+        {
+          "member_role": "METHOD_CLARIFICATION_V0_1_4",
+          "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+          "source_path": "method/reference-kernel/REFERENCE_KERNEL_METHOD_V0.1.4_SERIES_EXPERIENCE_DIVERSITY_GOVERNANCE.md",
+          "source_revision": "053f4f8b97239040dac26754210097cdb60061b2",
+          "git_blob": "aabc60d79c81c5ff26747d4b6d2252f32d553889",
+          "sha256": "73852d4b0b822e8f77bcc5cff5ed0537236f844fff187ae17c877a0e9f680357"
+        },
+        {
+          "member_role": "METHOD_CLARIFICATION_V0_1_5",
+          "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+          "source_path": "method/reference-kernel/REFERENCE_KERNEL_METHOD_V0.1.5_ASSESSMENT_FIDELITY_AND_INTERACTION_MAPPING.md",
+          "source_revision": "053f4f8b97239040dac26754210097cdb60061b2",
+          "git_blob": "1aa81afcaae3963cb7404fc6101d4447b881716f",
+          "sha256": "ccf9e4d2ae968da7499184622013925a199f7baf8090746ee980ab524487b3c3"
+        },
+        {
+          "member_role": "METHOD_CLARIFICATION_V0_1_6",
+          "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+          "source_path": "method/reference-kernel/REFERENCE_KERNEL_METHOD_V0.1.6_NARRATIVE_PERFORMANCE_AND_AUDIO_FIRST.md",
+          "source_revision": "053f4f8b97239040dac26754210097cdb60061b2",
+          "git_blob": "b015566a2a808c798d12f463b695a60b943ee376",
+          "sha256": "d4779d9ed193ed6b10f7667d88c13473a21a20411febc3003b96ea59228b8c12"
+        },
+        {
+          "member_role": "ARTIFACT_MODEL",
+          "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+          "source_path": "method/reference-kernel/REFERENCE_KERNEL_ARTIFACT_MODEL_V0.1.md",
+          "source_revision": "053f4f8b97239040dac26754210097cdb60061b2",
+          "git_blob": "6ad4236e0d1b7fc0ed29da3c6dbe6a2aebfb2628",
+          "sha256": "38065d05ccc4fc06bb0e0a57d7dfd388ccc156d5be2513dd4e5e230fcdafd66a"
+        },
+        {
+          "member_role": "REVIEW_MODEL",
+          "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+          "source_path": "method/reference-kernel/REFERENCE_KERNEL_REVIEW_MODEL_V0.1.md",
+          "source_revision": "053f4f8b97239040dac26754210097cdb60061b2",
+          "git_blob": "8b1d345e7187a98ffbd8bac2d634aab229be1847",
+          "sha256": "9f6b1e6ac7752bd64edd2414a3ce6c3b32fe87b84a14e053711cda5d2540608a"
+        },
+        {
+          "member_role": "G4_TRANSFER_PROTOCOL",
+          "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+          "source_path": "method/reference-kernel/G4_TRANSFER_PROTOCOL_V0.1.md",
+          "source_revision": "053f4f8b97239040dac26754210097cdb60061b2",
+          "git_blob": "2a8026cf9cae57ea50846608e6f476dc2b35e8c3",
+          "sha256": "7e1bb456157de3fb50beff5c89a6c345089c5090118f386559dabaa7f1a86398"
+        },
+        {
+          "member_role": "METHOD_EXTRACTION_CONTEXT",
+          "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+          "source_path": "method/reference-kernel/METHOD_EXTRACTION_SUMMARY.md",
+          "source_revision": "053f4f8b97239040dac26754210097cdb60061b2",
+          "git_blob": "2a116258386581f1ee11c0fb26ff3c88c9e12188",
+          "sha256": "ada61595bac5259e2214112c8a1e5499434d68bc949b627141d5d54996d4d8ca"
+        },
+        {
+          "member_role": "OPERATOR_RUNBOOK",
+          "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+          "source_path": "story_kernel_v0/AGENT_RUNBOOK.md",
+          "source_revision": "053f4f8b97239040dac26754210097cdb60061b2",
+          "git_blob": "bf4ab795fe3dd7cf2c869d9ef65d4109db6f423a",
+          "sha256": "d59468ac2f71d8e414535580e15cf8df0a156fc9cb62abfdeebf46724a0e3b9d"
+        },
+        {
+          "member_role": "EDITORIAL_MEMORY",
+          "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+          "source_path": "method/reference-kernel/STORY_DIVERSITY_LEDGER.md",
+          "source_revision": "053f4f8b97239040dac26754210097cdb60061b2",
+          "git_blob": "4439b07b8f3ae8b8f4c9ba03f3b8d2b07cde88ba",
+          "sha256": "0a7065c368ba6d0ea2cacd1ee40844a88d09bb0bb2f33f09d42fe5806cf5cccb"
+        }
+      ],
+      "file_payload": false
+    },
+    {
+      "resource_id": "RK-REVIEW-MODEL-V01",
+      "resource_type": "REVIEW_MODEL",
+      "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+      "source_path": "method/reference-kernel/REFERENCE_KERNEL_REVIEW_MODEL_V0.1.md",
+      "source_revision": "053f4f8b97239040dac26754210097cdb60061b2",
+      "git_blob": "8b1d345e7187a98ffbd8bac2d634aab229be1847",
+      "sha256": "9f6b1e6ac7752bd64edd2414a3ce6c3b32fe87b84a14e053711cda5d2540608a",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "STABLE",
+      "lifecycle_class": "ACTIVE_ALWAYS",
+      "allowed_consumers": [
+        "PLAN_C_STORY_KERNEL"
+      ],
+      "retrieval_mode": "PINNED_METHOD_DEPENDENCY",
+      "scope": "Plan C review responsibilities and editorial judgment boundaries.",
+      "lifecycle": {
+        "effective_from": "053f4f8b97239040dac26754210097cdb60061b2",
+        "deprecated_by": null,
+        "approval_evidence": "Active main baseline."
+      },
+      "projection_ref": null,
+      "notes": ""
+    },
+    {
+      "resource_id": "RK-RUNBOOK-V0",
+      "resource_type": "AGENT_RUNBOOK",
+      "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+      "source_path": "story_kernel_v0/AGENT_RUNBOOK.md",
+      "source_revision": "053f4f8b97239040dac26754210097cdb60061b2",
+      "git_blob": "bf4ab795fe3dd7cf2c869d9ef65d4109db6f423a",
+      "sha256": "d59468ac2f71d8e414535580e15cf8df0a156fc9cb62abfdeebf46724a0e3b9d",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "STABLE",
+      "lifecycle_class": "ACTIVE_ALWAYS",
+      "allowed_consumers": [
+        "PLAN_C_STORY_KERNEL"
+      ],
+      "retrieval_mode": "PINNED_METHOD_DEPENDENCY",
+      "scope": "Operational instructions for seven-stage Plan C runs.",
+      "lifecycle": {
+        "effective_from": "053f4f8b97239040dac26754210097cdb60061b2",
+        "deprecated_by": null,
+        "approval_evidence": "Active main baseline."
+      },
+      "projection_ref": null,
+      "notes": ""
+    },
+    {
+      "resource_id": "RK-DIVERSITY-LEDGER",
+      "resource_type": "EDITORIAL_MEMORY",
+      "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+      "source_path": "method/reference-kernel/STORY_DIVERSITY_LEDGER.md",
+      "source_revision": "053f4f8b97239040dac26754210097cdb60061b2",
+      "git_blob": "4439b07b8f3ae8b8f4c9ba03f3b8d2b07cde88ba",
+      "sha256": "0a7065c368ba6d0ea2cacd1ee40844a88d09bb0bb2f33f09d42fe5806cf5cccb",
+      "authority_status": "GOVERNANCE_ONLY",
+      "maturity_status": "STABLE",
+      "lifecycle_class": "ACTIVE_ALWAYS",
+      "allowed_consumers": [
+        "PLAN_C_STORY_KERNEL"
+      ],
+      "retrieval_mode": "PINNED_EDITORIAL_MEMORY",
+      "scope": "Cross-episode editorial memory; not a quota or story authority.",
+      "lifecycle": {
+        "effective_from": "053f4f8b97239040dac26754210097cdb60061b2",
+        "deprecated_by": null,
+        "approval_evidence": "Active main baseline."
+      },
+      "projection_ref": null,
+      "notes": ""
+    },
+    {
+      "resource_id": "RK-EP001-QUALITY-REFERENCE",
+      "resource_type": "DERIVED_QUALITY_REFERENCE",
+      "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+      "source_path": "references/EP001_STORY_QUALITY_REFERENCE.md",
+      "source_revision": "053f4f8b97239040dac26754210097cdb60061b2",
+      "git_blob": "3961dac2e1d4c337aed0719054678ad584b552d1",
+      "sha256": "300eca18214372ebe5eede14315e8fd7aeb67432b91280a60ceab1fec00e1a36",
+      "authority_status": "QUALITY_REFERENCE",
+      "maturity_status": "STABLE",
+      "lifecycle_class": "QUALITY_REFERENCE",
+      "allowed_consumers": [
+        "PLAN_C_STORY_KERNEL"
+      ],
+      "retrieval_mode": "EXPLICIT_DERIVED_REFERENCE",
+      "scope": "Craft calibration only; not plot or course authority.",
+      "lifecycle": {
+        "effective_from": "053f4f8b97239040dac26754210097cdb60061b2",
+        "deprecated_by": null,
+        "approval_evidence": "Owner-designated quality reference and active main snapshot."
+      },
+      "projection_ref": null,
+      "notes": "Anti-overfit boundary applies."
+    },
+    {
+      "resource_id": "RK-LESSON002-ACCEPTED-PACKAGE-EXAMPLE",
+      "resource_type": "ACCEPTED_PACKAGE_EXAMPLE",
+      "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+      "source_path": "packages/lesson002/accepted/outputs/LESSON002_PACKAGE_MANIFEST_FINAL.json",
+      "source_revision": "053f4f8b97239040dac26754210097cdb60061b2",
+      "git_blob": "6dc53718630ea8d8b7220b710ad19de44f851e0a",
+      "sha256": "4e3ac34a2166223d702f0121a5c3800eeadb384bb1bfaa8432ee3d3b3e325dd5",
+      "authority_status": "QUALITY_REFERENCE",
+      "maturity_status": "STABLE",
+      "lifecycle_class": "QUALITY_REFERENCE",
+      "allowed_consumers": [
+        "PLAN_C_STORY_KERNEL"
+      ],
+      "retrieval_mode": "EXPLICIT_PACKAGE_SHAPE_EXAMPLE",
+      "scope": "Owner-accepted/frozen artifact-shape and process example; not plot template.",
+      "lifecycle": {
+        "effective_from": "053f4f8b97239040dac26754210097cdb60061b2",
+        "deprecated_by": null,
+        "approval_evidence": "Package final manifest at pinned main baseline."
+      },
+      "projection_ref": null,
+      "notes": ""
+    },
+    {
+      "resource_id": "GWC-VOICE-PERFORMANCE-TABLE-V05",
+      "resource_type": "VOICE_PERFORMANCE_SOURCE",
+      "source_repo": "xrundaLab/GalaxyWorldCanon",
+      "source_path": "银河角色声音与演出准备表-v0.5-20260923.md",
+      "source_revision": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+      "git_blob": "6c570779f7ec8e5cbc6b0364544465a836227c57",
+      "sha256": "471db9565f6a924a89f950fbedf0c0f1778632fb9004b5509549d2af5f806ece",
+      "authority_status": "PRODUCTION_ONLY",
+      "maturity_status": "CANDIDATE",
+      "lifecycle_class": "PRODUCTION_ONLY",
+      "allowed_consumers": [
+        "PLAN_B_PRODUCTION"
+      ],
+      "retrieval_mode": "PRODUCTION_CONFIG_PROJECTION",
+      "scope": "Voice/performance source evidence; Plan B configuration is manually represented and must not be passed to Story Writer as content authority.",
+      "lifecycle": {
+        "effective_from": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "deprecated_by": null,
+        "approval_evidence": "Plan B source wiring recorded in Phase A audit; source lifecycle remains as declared."
+      },
+      "projection_ref": null,
+      "notes": "Voice provider IDs/config stay production-only."
+    },
+    {
+      "resource_id": "PLANB-STORY-REGISTRIES",
+      "resource_type": "PRODUCTION_REGISTRIES",
+      "source_repo": "xrundaLab/vibe-coding-ppt",
+      "source_path": "factory/story_registries.py",
+      "source_revision": "4f7e3b938a760ce5f6028f13d2426be2c880ed63",
+      "git_blob": "1fa1cd4cf34a52e754e05883f43b9fc02096e22e",
+      "sha256": "de503351f616216fbf8bb39cea0a2b47e416b6f4a611b90cd3558ec92f81e68f",
+      "authority_status": "PRODUCTION_ONLY",
+      "maturity_status": "CANDIDATE",
+      "lifecycle_class": "PRODUCTION_ONLY",
+      "allowed_consumers": [
+        "PLAN_B_PRODUCTION"
+      ],
+      "retrieval_mode": "RUNTIME_REGISTRY_LOOKUP",
+      "scope": "Current production registries; not a complete Canon or all-purpose Story resource catalog.",
+      "lifecycle": {
+        "effective_from": "4f7e3b938a760ce5f6028f13d2426be2c880ed63",
+        "deprecated_by": null,
+        "approval_evidence": "Pinned Plan B baseline code evidence."
+      },
+      "projection_ref": null,
+      "notes": "Phase A measured 18 character rows, one location, one Canon item, one Course placeholder, and 12 forbidden tropes."
+    },
+    {
+      "resource_id": "PLANB-CONTEXT-ASSEMBLER",
+      "resource_type": "PRODUCTION_CONTEXT_ASSEMBLER",
+      "source_repo": "xrundaLab/vibe-coding-ppt",
+      "source_path": "factory/context_assembler.py",
+      "source_revision": "4f7e3b938a760ce5f6028f13d2426be2c880ed63",
+      "git_blob": "2d372ebd00d496bdebe9ce1fc29eb15bd3813de1",
+      "sha256": "0b1afd85ee110a75118f44aa57c6eda42261bdfdedd6107dfbad31a7ee9cc552",
+      "authority_status": "PRODUCTION_ONLY",
+      "maturity_status": "CANDIDATE",
+      "lifecycle_class": "PRODUCTION_ONLY",
+      "allowed_consumers": [
+        "PLAN_B_PRODUCTION"
+      ],
+      "retrieval_mode": "EXPLICIT_BOUNDED_CONTEXT_ASSEMBLY",
+      "scope": "Production-side explicit context assembly; reference asset IDs are caller supplied at pinned baseline.",
+      "lifecycle": {
+        "effective_from": "4f7e3b938a760ce5f6028f13d2426be2c880ed63",
+        "deprecated_by": null,
+        "approval_evidence": "Pinned Plan B baseline code evidence."
+      },
+      "projection_ref": null,
+      "notes": "Not a Plan C dependency resolver."
+    },
+    {
+      "resource_id": "PLANB-STORY-PROFILE",
+      "resource_type": "PRODUCTION_STORY_PROFILE",
+      "source_repo": "xrundaLab/vibe-coding-ppt",
+      "source_path": "factory/story_profile.py",
+      "source_revision": "4f7e3b938a760ce5f6028f13d2426be2c880ed63",
+      "git_blob": "772dd37aac2c96684a7f1c1aea58de4fb98ca6a9",
+      "sha256": "6ff52a2d6119e8a79762d087c3beb5df557db7d435d7c06c9074c6505140f869",
+      "authority_status": "PRODUCTION_ONLY",
+      "maturity_status": "CANDIDATE",
+      "lifecycle_class": "PRODUCTION_ONLY",
+      "allowed_consumers": [
+        "PLAN_B_PRODUCTION"
+      ],
+      "retrieval_mode": "CONDITIONAL_APPROVED_PROFILE_VALIDATION",
+      "scope": "Plan B profile validation and identity lookup.",
+      "lifecycle": {
+        "effective_from": "4f7e3b938a760ce5f6028f13d2426be2c880ed63",
+        "deprecated_by": null,
+        "approval_evidence": "Pinned Plan B baseline code evidence."
+      },
+      "projection_ref": null,
+      "notes": ""
+    },
+    {
+      "resource_id": "PLANB-NARRATIVE-PIPELINE",
+      "resource_type": "PRODUCTION_PIPELINE",
+      "source_repo": "xrundaLab/vibe-coding-ppt",
+      "source_path": "factory/narrative_pipeline.py",
+      "source_revision": "4f7e3b938a760ce5f6028f13d2426be2c880ed63",
+      "git_blob": "42c4c767b2c5a81e620cdc39b9c4c100f2bcd642",
+      "sha256": "0fdbb529be6862f2d28964df11ace63f712daca214a5d6e8d7785826bb484a9d",
+      "authority_status": "PRODUCTION_ONLY",
+      "maturity_status": "CANDIDATE",
+      "lifecycle_class": "PRODUCTION_ONLY",
+      "allowed_consumers": [
+        "PLAN_B_PRODUCTION"
+      ],
+      "retrieval_mode": "CONDITIONAL_EPISODE_PIPELINE",
+      "scope": "Plan B production pipeline and caller routing.",
+      "lifecycle": {
+        "effective_from": "4f7e3b938a760ce5f6028f13d2426be2c880ed63",
+        "deprecated_by": null,
+        "approval_evidence": "Pinned Plan B baseline code evidence."
+      },
+      "projection_ref": null,
+      "notes": ""
+    },
+    {
+      "resource_id": "PLANB-RELEASE-MANIFEST",
+      "resource_type": "PRODUCTION_RELEASE_MANIFEST",
+      "source_repo": "xrundaLab/vibe-coding-ppt",
+      "source_path": "factory/release_manifest.py",
+      "source_revision": "4f7e3b938a760ce5f6028f13d2426be2c880ed63",
+      "git_blob": "73e9c0fa3890625eedb14ef33ff013adecfbb3e5",
+      "sha256": "5c470400f857731d5c07b1cacff83502f7532f89e528626e25e65bf72598eb83",
+      "authority_status": "PRODUCTION_ONLY",
+      "maturity_status": "CANDIDATE",
+      "lifecycle_class": "PRODUCTION_ONLY",
+      "allowed_consumers": [
+        "PLAN_B_PRODUCTION"
+      ],
+      "retrieval_mode": "RELEASE_VERSION_RECORDING",
+      "scope": "Production release metadata; recording a version does not prove source retrieval.",
+      "lifecycle": {
+        "effective_from": "4f7e3b938a760ce5f6028f13d2426be2c880ed63",
+        "deprecated_by": null,
+        "approval_evidence": "Pinned Plan B baseline code evidence."
+      },
+      "projection_ref": null,
+      "notes": ""
+    },
+    {
+      "resource_id": "PLANB-VISUAL-REFERENCE-LIBRARY",
+      "resource_type": "PRODUCTION_VISUAL_ASSET_ROUTE",
+      "source_repo": "xrundaLab/vibe-coding-ppt",
+      "source_path": "factory/visual_reference_library.py",
+      "source_revision": "4f7e3b938a760ce5f6028f13d2426be2c880ed63",
+      "git_blob": "f483c5ccc94f5730585bdefc9b51cb1ca06803f5",
+      "sha256": "f7712eea9cb292f77890eebf5fdbc6c76ef7e91ab1b3267bf8085448f9afd85c",
+      "authority_status": "PRODUCTION_ONLY",
+      "maturity_status": "CANDIDATE",
+      "lifecycle_class": "PRODUCTION_ONLY",
+      "allowed_consumers": [
+        "PLAN_B_VISUAL_PRODUCTION"
+      ],
+      "retrieval_mode": "VISUAL_REFERENCE_RETRIEVAL",
+      "scope": "Visual exemplars and image production support; not factual Deep Note evidence.",
+      "lifecycle": {
+        "effective_from": "4f7e3b938a760ce5f6028f13d2426be2c880ed63",
+        "deprecated_by": null,
+        "approval_evidence": "Pinned Plan B baseline code evidence."
+      },
+      "projection_ref": null,
+      "notes": "Do not conflate image assets with Approved Reference Assets."
+    },
+    {
+      "resource_id": "PLANB-CHARACTER-IDENTITY",
+      "resource_type": "PRODUCTION_IDENTITY_ROUTING",
+      "source_repo": "xrundaLab/vibe-coding-ppt",
+      "source_path": "factory/character_identity.py",
+      "source_revision": "4f7e3b938a760ce5f6028f13d2426be2c880ed63",
+      "git_blob": "a35460f43491708493524e2c75e931d696833793",
+      "sha256": "cb41a0aa211400448aef19229a410aaac932580f091520ab4498399229e3041b",
+      "authority_status": "PRODUCTION_ONLY",
+      "maturity_status": "CANDIDATE",
+      "lifecycle_class": "PRODUCTION_ONLY",
+      "allowed_consumers": [
+        "PLAN_B_PRODUCTION"
+      ],
+      "retrieval_mode": "RUNTIME_IDENTITY_LOOKUP",
+      "scope": "Production voice/visual identity routing.",
+      "lifecycle": {
+        "effective_from": "4f7e3b938a760ce5f6028f13d2426be2c880ed63",
+        "deprecated_by": null,
+        "approval_evidence": "Pinned Plan B baseline code evidence."
+      },
+      "projection_ref": null,
+      "notes": ""
+    },
+    {
+      "resource_id": "GWC-MAP-INDEX",
+      "resource_type": "STRUCTURED_SPATIAL_MAP_INDEX",
+      "source_repo": "xrundaLab/GalaxyWorldCanon",
+      "source_path": "00_ENGINEERING/resources/GALAXY_MAP_INDEX_V0.1.json",
+      "source_revision": null,
+      "git_blob": "43e95be885ed9e365bd46916b1d5e2623167c933",
+      "sha256": "23b1fea64c46e7857e3f58a8c8f22dfa416b198224c73d49492dc986b18190fe",
+      "authority_status": "NOT_ACTIVE",
+      "maturity_status": "CANDIDATE",
+      "lifecycle_class": "CANDIDATE_NOT_APPROVED",
+      "allowed_consumers": [],
+      "retrieval_mode": "NOT_RESOLVABLE_PENDING_ENGINEERING_ACTIVATION_REVIEW",
+      "scope": "Candidate structured resource only; an approved revision needs its own exact repository, commit, path, blob, and SHA-256 before any new run can resolve it.",
+      "lifecycle": {
+        "effective_from": null,
+        "deprecated_by": null,
+        "approval_evidence": null
+      },
+      "projection_ref": null,
+      "projection_of": "GWC-SPATIAL-MAP-V01",
+      "governed_by": null,
+      "candidate_pin_complete": true,
+      "notes": "RC1 target path/blob/content hash are concrete. Future Story runs pin the Catalog externally; the resource resolves at the pinned Catalog revision.",
+      "candidate_publication_provenance": {
+        "repository": "xrundaLab/galaxy-story-reference-kernel",
+        "branch": "audit/resource-on-shelf-context-consumption",
+        "base_commit": "053f4f8b97239040dac26754210097cdb60061b2",
+        "commit_and_git_blob": "recorded after candidate commit; not self-embedded"
+      },
+      "intended_future_lifecycle_after_activation": {
+        "authority_status": "ACTIVE_AUTHORITY",
+        "maturity_status": "CANDIDATE",
+        "lifecycle_class": "ACTIVE_ALWAYS",
+        "allowed_consumers": [
+          "PLAN_C_STORY_KERNEL"
+        ],
+        "retrieval_mode": "STRUCTURED_INDEX_THEN_BOUNDED_DETAIL",
+        "activation_requires": "separate Owner-approved GalaxyWorldCanon release and Catalog activation; exact post-commit path/commit/blob/SHA pin"
+      },
+      "scope_note": "Issue #18 Owner decision authorizes selected/discoverable eligibility for L01-L06; L07/L08 retain bounded status.",
+      "same_repository_revision_semantics": "SAME_AS_PINNED_CATALOG_REVISION"
+    },
+    {
+      "resource_id": "GWC-PREHISTORY-INDEX",
+      "resource_type": "STRUCTURED_PREHISTORY_INDEX",
+      "source_repo": "xrundaLab/GalaxyWorldCanon",
+      "source_path": "00_ENGINEERING/resources/GALAXY_PREHISTORY_INDEX_V0.1.json",
+      "source_revision": null,
+      "git_blob": "1c7e666c86e90f7b6137b2aea7a81968bdc89767",
+      "sha256": "778385385b8cc267c961def2fec8123b4a49ef195f2156e4e988f622ba4e2844",
+      "authority_status": "NOT_ACTIVE",
+      "maturity_status": "CANDIDATE",
+      "lifecycle_class": "CANDIDATE_NOT_APPROVED",
+      "allowed_consumers": [],
+      "retrieval_mode": "NOT_RESOLVABLE_PENDING_ENGINEERING_ACTIVATION_REVIEW",
+      "scope": "Candidate structured resource only; an approved revision needs its own exact repository, commit, path, blob, and SHA-256 before any new run can resolve it.",
+      "lifecycle": {
+        "effective_from": null,
+        "deprecated_by": null,
+        "approval_evidence": null
+      },
+      "projection_ref": null,
+      "projection_of": "GWC-PREHISTORY-TIMELINE-V01",
+      "governed_by": null,
+      "candidate_pin_complete": true,
+      "notes": "RC1 target path/blob/content hash are concrete. Future Story runs pin the Catalog externally; the resource resolves at the pinned Catalog revision.",
+      "candidate_publication_provenance": {
+        "repository": "xrundaLab/galaxy-story-reference-kernel",
+        "branch": "audit/resource-on-shelf-context-consumption",
+        "base_commit": "053f4f8b97239040dac26754210097cdb60061b2",
+        "commit_and_git_blob": "recorded after candidate commit; not self-embedded"
+      },
+      "intended_future_lifecycle_after_activation": {
+        "authority_status": "ACTIVE_AUTHORITY",
+        "maturity_status": "CANDIDATE",
+        "lifecycle_class": "ACTIVE_ALWAYS",
+        "allowed_consumers": [
+          "PLAN_C_STORY_KERNEL"
+        ],
+        "retrieval_mode": "STRUCTURED_INDEX_THEN_BOUNDED_DETAIL",
+        "activation_requires": "separate Owner-approved GalaxyWorldCanon release and Catalog activation; exact post-commit path/commit/blob/SHA pin"
+      },
+      "scope_note": "Issue #18 Owner decision authorizes H01-H12 as authoring-background continuity, subject to exposure review.",
+      "same_repository_revision_semantics": "SAME_AS_PINNED_CATALOG_REVISION"
+    },
+    {
+      "resource_id": "CURRICULUM-SERIES-PROJECTION",
+      "resource_type": "CURRICULUM_SERIES_PROJECTION_SCHEMA",
+      "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+      "source_path": "reports/resource-architecture-phase-b1/CURRICULUM_SERIES_PROJECTION_SCHEMA_CANDIDATE.json",
+      "source_revision": null,
+      "git_blob": null,
+      "sha256": "d2e648f9e206400d6e947a856493a5f7723277cf717bb263957f1139e56166a3",
+      "authority_status": "NOT_ACTIVE",
+      "maturity_status": "CANDIDATE",
+      "lifecycle_class": "CANDIDATE_NOT_APPROVED",
+      "allowed_consumers": [],
+      "retrieval_mode": "NOT_RESOLVABLE_PENDING_OWNER_REVIEW",
+      "scope": "Candidate structured resource only; an approved revision needs its own exact repository, commit, path, blob, and SHA-256 before any new run can resolve it.",
+      "lifecycle": {
+        "effective_from": null,
+        "deprecated_by": null,
+        "approval_evidence": null
+      },
+      "projection_ref": null,
+      "projection_of": "GWC-COURSE-WORKBOOK-V507",
+      "governed_by": null,
+      "candidate_pin_complete": false,
+      "notes": "Candidate file SHA-256 records local bytes; publication commit is external Git provenance and activation needs a separately approved source pin."
+    },
+    {
+      "resource_id": "APPROVED-REFERENCE-ASSET-REGISTRY",
+      "resource_type": "REFERENCE_ASSET_REGISTRY_ENVELOPE",
+      "source_repo": "xrundaLab/galaxy-story-reference-kernel",
+      "source_path": "reports/resource-architecture-phase-b1/APPROVED_REFERENCE_ASSET_REGISTRY_CANDIDATE.json",
+      "source_revision": null,
+      "git_blob": null,
+      "sha256": "ba4a6f7b5cf033acdfdf54251e1727c028789c69c1d7d540483b6155054974ee",
+      "authority_status": "NOT_ACTIVE",
+      "maturity_status": "CANDIDATE",
+      "lifecycle_class": "CANDIDATE_NOT_APPROVED",
+      "allowed_consumers": [],
+      "retrieval_mode": "NOT_RESOLVABLE_PENDING_OWNER_REVIEW",
+      "scope": "Candidate structured resource only; an approved revision needs its own exact repository, commit, path, blob, and SHA-256 before any new run can resolve it.",
+      "lifecycle": {
+        "effective_from": null,
+        "deprecated_by": null,
+        "approval_evidence": null
+      },
+      "projection_ref": null,
+      "projection_of": null,
+      "governed_by": "GWC-CONTROLLED-REFERENCE-LIBRARY-GOVERNANCE",
+      "candidate_pin_complete": false,
+      "notes": "Candidate file SHA-256 records local bytes; publication commit is external Git provenance and activation needs a separately approved source pin."
+    }
+  ]
+}
