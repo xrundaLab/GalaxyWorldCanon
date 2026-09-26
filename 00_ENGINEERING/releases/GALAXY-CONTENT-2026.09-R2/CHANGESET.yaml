@@ -43,4 +43,4 @@ changeset:
     engineering_owner: true
   approval_record:
     canon_owner: OWNER_APPROVED_FIRST_REFERENCE_TRANCHE_IN_ISSUE_17
-    engineering_review: PENDING_PR_REVIEW
+    engineering_review: CHATGPT_TECHNICAL_REVIEW_PASS_GALAXYWORLDCANON_PR_4_2026-09-26
