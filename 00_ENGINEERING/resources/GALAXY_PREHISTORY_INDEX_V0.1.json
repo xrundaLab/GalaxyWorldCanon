@@ -1,6 +1,6 @@
 {
-  "projection_id": "GALAXY_PREHISTORY_INDEX_V0.1_RELEASE_CANDIDATE",
-  "status": "RELEASE_CANDIDATE_NOT_ACTIVE",
+  "projection_id": "GALAXY_PREHISTORY_INDEX_V0.1",
+  "status": "ACTIVE_RESOURCE",
   "source": {
     "repository": "xrundaLab/GalaxyWorldCanon",
     "path": "01_SOURCE_OF_TRUTH/银河前史与人物历史骨架 v0.1.md",
@@ -9,7 +9,7 @@
     "sha256": "b65885f15c9b86eb77ba2fbf1985755a2d6b2e2009577600bd5de68ac243a1ca",
     "source_status": "CANON CANDIDATE"
   },
-  "projection_policy": "Exact bounded H01-H12 source statements only; available as authoring-background continuity after separate activation. Preserve source unknown/not-recorded distinctions; no inferred dates, motives, locations, participants, biography, private memory, or disclosure permission.",
+  "projection_policy": "Exact bounded H01-H12 source statements available as authoring-background continuity. Preserve source unknown/not-recorded distinctions; no inferred dates, motives, locations, participants, biography, private memory, or disclosure permission.",
   "records": [
     {
       "projection_record_id": "PREHIST-PROJ-H01",
@@ -38,7 +38,7 @@
       },
       "related_projection_record_ids": [],
       "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
-      "projection_lifecycle": "CANDIDATE_NOT_ACTIVE"
+      "projection_lifecycle": "ACTIVE_RESOURCE"
     },
     {
       "projection_record_id": "PREHIST-PROJ-H02",
@@ -67,7 +67,7 @@
       },
       "related_projection_record_ids": [],
       "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
-      "projection_lifecycle": "CANDIDATE_NOT_ACTIVE"
+      "projection_lifecycle": "ACTIVE_RESOURCE"
     },
     {
       "projection_record_id": "PREHIST-PROJ-H03",
@@ -96,7 +96,7 @@
       },
       "related_projection_record_ids": [],
       "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
-      "projection_lifecycle": "CANDIDATE_NOT_ACTIVE"
+      "projection_lifecycle": "ACTIVE_RESOURCE"
     },
     {
       "projection_record_id": "PREHIST-PROJ-H04",
@@ -125,7 +125,7 @@
       },
       "related_projection_record_ids": [],
       "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
-      "projection_lifecycle": "CANDIDATE_NOT_ACTIVE"
+      "projection_lifecycle": "ACTIVE_RESOURCE"
     },
     {
       "projection_record_id": "PREHIST-PROJ-H05",
@@ -154,7 +154,7 @@
       },
       "related_projection_record_ids": [],
       "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
-      "projection_lifecycle": "CANDIDATE_NOT_ACTIVE"
+      "projection_lifecycle": "ACTIVE_RESOURCE"
     },
     {
       "projection_record_id": "PREHIST-PROJ-H06",
@@ -194,7 +194,7 @@
       },
       "related_projection_record_ids": [],
       "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
-      "projection_lifecycle": "CANDIDATE_NOT_ACTIVE"
+      "projection_lifecycle": "ACTIVE_RESOURCE"
     },
     {
       "projection_record_id": "PREHIST-PROJ-H07",
@@ -232,7 +232,7 @@
       },
       "related_projection_record_ids": [],
       "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
-      "projection_lifecycle": "CANDIDATE_NOT_ACTIVE"
+      "projection_lifecycle": "ACTIVE_RESOURCE"
     },
     {
       "projection_record_id": "PREHIST-PROJ-H08",
@@ -269,7 +269,7 @@
       },
       "related_projection_record_ids": [],
       "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
-      "projection_lifecycle": "CANDIDATE_NOT_ACTIVE"
+      "projection_lifecycle": "ACTIVE_RESOURCE"
     },
     {
       "projection_record_id": "PREHIST-PROJ-H09",
@@ -306,7 +306,7 @@
       },
       "related_projection_record_ids": [],
       "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
-      "projection_lifecycle": "CANDIDATE_NOT_ACTIVE"
+      "projection_lifecycle": "ACTIVE_RESOURCE"
     },
     {
       "projection_record_id": "PREHIST-PROJ-H10",
@@ -346,7 +346,7 @@
       },
       "related_projection_record_ids": [],
       "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
-      "projection_lifecycle": "CANDIDATE_NOT_ACTIVE"
+      "projection_lifecycle": "ACTIVE_RESOURCE"
     },
     {
       "projection_record_id": "PREHIST-PROJ-H11",
@@ -388,7 +388,7 @@
         "PREHIST-PROJ-H10"
       ],
       "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
-      "projection_lifecycle": "CANDIDATE_NOT_ACTIVE"
+      "projection_lifecycle": "ACTIVE_RESOURCE"
     },
     {
       "projection_record_id": "PREHIST-PROJ-H12",
@@ -428,19 +428,19 @@
       },
       "related_projection_record_ids": [],
       "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
-      "projection_lifecycle": "CANDIDATE_NOT_ACTIVE"
+      "projection_lifecycle": "ACTIVE_RESOURCE"
     }
   ],
   "default_exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
   "exposure_policy_meaning": "After separate projection activation, facts may constrain authoring continuity; no character or user-facing disclosure is authorized by the index. Direct exposition/dialogue needs contextual epistemic review.",
   "release_candidate_scope": {
-    "decision_authority": "Issue #18 Owner Phase B1 Content Decisions — approved comment 5841836615",
-    "owner_decision_record": "https://github.com/xrundaLab/galaxy-story-reference-kernel/issues/18#issuecomment-5841836615",
-    "plan_c_base_commit": "053f4f8b97239040dac26754210097cdb60061b2",
+    "decision_authority": "Issue #18 Owner Phase B1 Content Decisions — approved",
+    "owner_decision_record": "https://github.com/xrundaLab/galaxy-story-reference-kernel/issues/18",
     "source_canon_commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
-    "activation_state": "NOT_ACTIVE_PENDING_SEPARATE_GALAXYWORLDCANON_RELEASE_APPROVAL",
+    "activation_state": "ACTIVE_WHEN_THIS_RELEASE_IS_ON_MAIN",
     "source_canon_prose_changed": false,
     "new_canon_facts_created": false,
-    "use_scope": "Authoring-background continuity only after separate activation; no automatic character or user-facing disclosure permission."
+    "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
+    "semantic_policy": "H01-H12 constrain continuity/background only; no added dates, motives, private memories, locations, participant lists, or direct disclosure permissions."
   }
 }
