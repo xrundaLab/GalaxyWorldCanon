@@ -1,0 +1,40 @@
+galaxy_release:
+  release_id: GALAXY-CONTENT-2026.09-R2
+  inherits_release: GALAXY-CONTENT-2026.09-R1
+  world_canon_version: v1.0
+  character_canon_version: v0.1
+  prehistory_version: v0.1
+  map_canon_version: v0.1
+  reference_library_version: v0.1
+  approved_reference_registry_version: v0.1
+  story_schema_version: v0.3
+  production_spec_version: v0.2
+  runtime_config_version: null
+  course_source_version: null
+  status: RC
+  baseline_commit: b5ee5c6f5c3b6732f69414f6388d0f07e6b80c14
+  publication_provenance: GIT_HISTORY_NON_SELF_REFERENTIAL
+  active_resources:
+    approved_reference_asset_registry:
+      path: 00_ENGINEERING/resources/GALAXY_APPROVED_REFERENCE_ASSET_REGISTRY_V0.1.json
+      blob: ada8b2cfcaab1d7982fb1d50c40baf432916ee5b
+      sha256: 24cf6e9e8b443c68df54bdb62d155944a072ebf579e722d1b048441504807a58
+      active_record_count: 9
+      excluded_or_held_ids:
+        - RAC-005
+    resource_catalog:
+      path: 00_ENGINEERING/resources/GALAXY_RESOURCE_CATALOG.json
+      blob: 0e697163946eaf1092aa21915254f4a3ffddb594
+      sha256: d4ed004629e654462f0c1e9d6c1b1436fc507b41887d93099dd5fbd37739cc7f
+      lifecycle: ACTIVE
+  inactive_resources:
+    curriculum_projection: CANDIDATE_NOT_APPROVED
+  changeset_ids:
+    - GWC-REFERENCE-ASSET-REGISTRY-FIRST-TRANCHE-2026-09-R2
+  migrations: []
+  golden_tests: []
+  approved_by:
+    canon_owner: OWNER_APPROVED_IN_GALAXY_STORY_REFERENCE_KERNEL_ISSUE_17
+    engineering_owner: null
+  created_at: 2026-09-26
+  released_at: null
