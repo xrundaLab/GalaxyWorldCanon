@@ -1,0 +1,446 @@
+{
+  "projection_id": "GALAXY_PREHISTORY_INDEX_V0.1",
+  "status": "ACTIVE_RESOURCE",
+  "source": {
+    "repository": "xrundaLab/GalaxyWorldCanon",
+    "path": "01_SOURCE_OF_TRUTH/银河前史与人物历史骨架 v0.1.md",
+    "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+    "git_blob": "880bfa5f19ab5845c3c146661df03e4a1740ecf6",
+    "sha256": "b65885f15c9b86eb77ba2fbf1985755a2d6b2e2009577600bd5de68ac243a1ca",
+    "source_status": "CANON CANDIDATE"
+  },
+  "projection_policy": "Exact bounded H01-H12 source statements available as authoring-background continuity. Preserve source unknown/not-recorded distinctions; no inferred dates, motives, locations, participants, biography, private memory, or disclosure permission.",
+  "records": [
+    {
+      "projection_record_id": "PREHIST-PROJ-H01",
+      "record_kind": "continuity_statement",
+      "source_heading_id": "H01",
+      "statement": "银河在用户进入前已经长期存在。",
+      "character_ids": [],
+      "location_ids": [],
+      "chronology_or_relation": {
+        "kind": "relative",
+        "value": "before_user_entry",
+        "precision": "no exact date"
+      },
+      "relationship_thread_refs": [],
+      "epistemic_visibility": "NOT_SPECIFIED_IN_SOURCE; do not infer who knows or may disclose this.",
+      "source_status": "建议本轮先批准; CANON CANDIDATE",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "exposure_constraints": [],
+      "source_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河前史与人物历史骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "880bfa5f19ab5845c3c146661df03e4a1740ecf6",
+        "locator": "§97 H01",
+        "sha256": "b65885f15c9b86eb77ba2fbf1985755a2d6b2e2009577600bd5de68ac243a1ca"
+      },
+      "related_projection_record_ids": [],
+      "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
+      "projection_lifecycle": "ACTIVE_RESOURCE"
+    },
+    {
+      "projection_record_id": "PREHIST-PROJ-H02",
+      "record_kind": "continuity_statement",
+      "source_heading_id": "H02",
+      "statement": "四星域经过长期探索与交流逐渐形成今天格局。",
+      "character_ids": [],
+      "location_ids": [],
+      "chronology_or_relation": {
+        "kind": "relative",
+        "value": "long-term formation before current arrangement",
+        "precision": "no dates or sequence details"
+      },
+      "relationship_thread_refs": [],
+      "epistemic_visibility": "NOT_SPECIFIED_IN_SOURCE; do not infer who knows or may disclose this.",
+      "source_status": "建议本轮先批准; CANON CANDIDATE",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "exposure_constraints": [],
+      "source_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河前史与人物历史骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "880bfa5f19ab5845c3c146661df03e4a1740ecf6",
+        "locator": "§97 H02",
+        "sha256": "b65885f15c9b86eb77ba2fbf1985755a2d6b2e2009577600bd5de68ac243a1ca"
+      },
+      "related_projection_record_ids": [],
+      "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
+      "projection_lifecycle": "ACTIVE_RESOURCE"
+    },
+    {
+      "projection_record_id": "PREHIST-PROJ-H03",
+      "record_kind": "continuity_statement",
+      "source_heading_id": "H03",
+      "statement": "当前时代总体属于开放探索与跨区域合作时期。",
+      "character_ids": [],
+      "location_ids": [],
+      "chronology_or_relation": {
+        "kind": "era",
+        "value": "current era",
+        "precision": "relative era only"
+      },
+      "relationship_thread_refs": [],
+      "epistemic_visibility": "NOT_SPECIFIED_IN_SOURCE; do not infer who knows or may disclose this.",
+      "source_status": "建议本轮先批准; CANON CANDIDATE",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "exposure_constraints": [],
+      "source_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河前史与人物历史骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "880bfa5f19ab5845c3c146661df03e4a1740ecf6",
+        "locator": "§97 H03",
+        "sha256": "b65885f15c9b86eb77ba2fbf1985755a2d6b2e2009577600bd5de68ac243a1ca"
+      },
+      "related_projection_record_ids": [],
+      "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
+      "projection_lifecycle": "ACTIVE_RESOURCE"
+    },
+    {
+      "projection_record_id": "PREHIST-PROJ-H04",
+      "record_kind": "continuity_statement",
+      "source_heading_id": "H04",
+      "statement": "现实航线属于相对较新的稳定连接。",
+      "character_ids": [],
+      "location_ids": [],
+      "chronology_or_relation": {
+        "kind": "relative",
+        "value": "newer than earlier historical periods",
+        "precision": "no exact date"
+      },
+      "relationship_thread_refs": [],
+      "epistemic_visibility": "NOT_SPECIFIED_IN_SOURCE; do not infer who knows or may disclose this.",
+      "source_status": "建议本轮先批准; CANON CANDIDATE",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "exposure_constraints": [],
+      "source_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河前史与人物历史骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "880bfa5f19ab5845c3c146661df03e4a1740ecf6",
+        "locator": "§97 H04",
+        "sha256": "b65885f15c9b86eb77ba2fbf1985755a2d6b2e2009577600bd5de68ac243a1ca"
+      },
+      "related_projection_record_ids": [],
+      "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
+      "projection_lifecycle": "ACTIVE_RESOURCE"
+    },
+    {
+      "projection_record_id": "PREHIST-PROJ-H05",
+      "record_kind": "continuity_statement",
+      "source_heading_id": "H05",
+      "statement": "用户不是第一位现实探索者。",
+      "character_ids": [],
+      "location_ids": [],
+      "chronology_or_relation": {
+        "kind": "relative",
+        "value": "other real-world explorers precede current user",
+        "precision": "no identities or dates"
+      },
+      "relationship_thread_refs": [],
+      "epistemic_visibility": "NOT_SPECIFIED_IN_SOURCE; do not infer who knows or may disclose this.",
+      "source_status": "建议本轮先批准; CANON CANDIDATE",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "exposure_constraints": [],
+      "source_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河前史与人物历史骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "880bfa5f19ab5845c3c146661df03e4a1740ecf6",
+        "locator": "§97 H05",
+        "sha256": "b65885f15c9b86eb77ba2fbf1985755a2d6b2e2009577600bd5de68ac243a1ca"
+      },
+      "related_projection_record_ids": [],
+      "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
+      "projection_lifecycle": "ACTIVE_RESOURCE"
+    },
+    {
+      "projection_record_id": "PREHIST-PROJ-H06",
+      "record_kind": "continuity_statement",
+      "source_heading_id": "H06",
+      "statement": "四伙伴在用户之前已经存在并拥有自己的经历。",
+      "character_ids": [
+        "TOKI",
+        "KONTI",
+        "PROTI",
+        "AJI"
+      ],
+      "character_id_mapping_ref": {
+        "repository": "xrundaLab/GalaxyWorldCanon",
+        "path": "01_SOURCE_OF_TRUTH/银河角色生态与 Character Pack v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "1f9ae1a661b467b035da6fbb52c8427159bfda38"
+      },
+      "location_ids": [],
+      "chronology_or_relation": {
+        "kind": "relative",
+        "value": "before_user_entry",
+        "precision": "no exact dates or biographies"
+      },
+      "relationship_thread_refs": [],
+      "epistemic_visibility": "NOT_SPECIFIED_IN_SOURCE; do not infer who knows or may disclose this.",
+      "source_status": "建议本轮先批准; CANON CANDIDATE",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "exposure_constraints": [],
+      "source_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河前史与人物历史骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "880bfa5f19ab5845c3c146661df03e4a1740ecf6",
+        "locator": "§97 H06",
+        "sha256": "b65885f15c9b86eb77ba2fbf1985755a2d6b2e2009577600bd5de68ac243a1ca"
+      },
+      "related_projection_record_ids": [],
+      "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
+      "projection_lifecycle": "ACTIVE_RESOURCE"
+    },
+    {
+      "projection_record_id": "PREHIST-PROJ-H07",
+      "record_kind": "relationship_statement",
+      "source_heading_id": "H07",
+      "statement": "拓奇与康缇的关系早于完整四人关系。",
+      "character_ids": [
+        "TOKI",
+        "KONTI"
+      ],
+      "character_id_mapping_ref": {
+        "repository": "xrundaLab/GalaxyWorldCanon",
+        "path": "01_SOURCE_OF_TRUTH/银河角色生态与 Character Pack v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "1f9ae1a661b467b035da6fbb52c8427159bfda38"
+      },
+      "location_ids": [],
+      "chronology_or_relation": {
+        "kind": "relative",
+        "value": "Toki-Konti relationship predates full four-person relationship",
+        "precision": "no dates or event details"
+      },
+      "relationship_thread_refs": [],
+      "epistemic_visibility": "NOT_SPECIFIED_IN_SOURCE; do not infer private/shared memory or disclosure permissions.",
+      "source_status": "建议本轮先批准; CANON CANDIDATE",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "exposure_constraints": [],
+      "source_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河前史与人物历史骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "880bfa5f19ab5845c3c146661df03e4a1740ecf6",
+        "locator": "§97 H07",
+        "sha256": "b65885f15c9b86eb77ba2fbf1985755a2d6b2e2009577600bd5de68ac243a1ca"
+      },
+      "related_projection_record_ids": [],
+      "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
+      "projection_lifecycle": "ACTIVE_RESOURCE"
+    },
+    {
+      "projection_record_id": "PREHIST-PROJ-H08",
+      "record_kind": "relationship_statement",
+      "source_heading_id": "H08",
+      "statement": "普罗通过一次需要实际验证或原型的合作逐渐进入关系。",
+      "character_ids": [
+        "PROTI"
+      ],
+      "character_id_mapping_ref": {
+        "repository": "xrundaLab/GalaxyWorldCanon",
+        "path": "01_SOURCE_OF_TRUTH/银河角色生态与 Character Pack v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "1f9ae1a661b467b035da6fbb52c8427159bfda38"
+      },
+      "location_ids": [],
+      "chronology_or_relation": {
+        "kind": "relative",
+        "value": "Proti joined the relationship through a collaboration",
+        "precision": "no date, partner list, or prototype details"
+      },
+      "relationship_thread_refs": [],
+      "epistemic_visibility": "NOT_SPECIFIED_IN_SOURCE; do not infer who knows or may disclose this.",
+      "source_status": "建议本轮先批准; CANON CANDIDATE",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "exposure_constraints": [],
+      "source_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河前史与人物历史骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "880bfa5f19ab5845c3c146661df03e4a1740ecf6",
+        "locator": "§97 H08",
+        "sha256": "b65885f15c9b86eb77ba2fbf1985755a2d6b2e2009577600bd5de68ac243a1ca"
+      },
+      "related_projection_record_ids": [],
+      "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
+      "projection_lifecycle": "ACTIVE_RESOURCE"
+    },
+    {
+      "projection_record_id": "PREHIST-PROJ-H09",
+      "record_kind": "relationship_statement",
+      "source_heading_id": "H09",
+      "statement": "爱今通过一个真正涉及其他人影响与共同决定的问题进入关系。",
+      "character_ids": [
+        "AJI"
+      ],
+      "character_id_mapping_ref": {
+        "repository": "xrundaLab/GalaxyWorldCanon",
+        "path": "01_SOURCE_OF_TRUTH/银河角色生态与 Character Pack v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "1f9ae1a661b467b035da6fbb52c8427159bfda38"
+      },
+      "location_ids": [],
+      "chronology_or_relation": {
+        "kind": "relative",
+        "value": "Aji joined the relationship through a consequential shared-decision issue",
+        "precision": "no date, participants, or issue details"
+      },
+      "relationship_thread_refs": [],
+      "epistemic_visibility": "NOT_SPECIFIED_IN_SOURCE; do not infer who knows or may disclose this.",
+      "source_status": "建议本轮先批准; CANON CANDIDATE",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "exposure_constraints": [],
+      "source_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河前史与人物历史骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "880bfa5f19ab5845c3c146661df03e4a1740ecf6",
+        "locator": "§97 H09",
+        "sha256": "b65885f15c9b86eb77ba2fbf1985755a2d6b2e2009577600bd5de68ac243a1ca"
+      },
+      "related_projection_record_ids": [],
+      "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
+      "projection_lifecycle": "ACTIVE_RESOURCE"
+    },
+    {
+      "projection_record_id": "PREHIST-PROJ-H10",
+      "record_kind": "shared_event_statement",
+      "source_heading_id": "H10",
+      "statement": "四人曾完成过至少一次重要但非“拯救世界”级别的共同事件。",
+      "character_ids": [
+        "TOKI",
+        "KONTI",
+        "PROTI",
+        "AJI"
+      ],
+      "character_id_mapping_ref": {
+        "repository": "xrundaLab/GalaxyWorldCanon",
+        "path": "01_SOURCE_OF_TRUTH/银河角色生态与 Character Pack v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "1f9ae1a661b467b035da6fbb52c8427159bfda38"
+      },
+      "location_ids": [],
+      "chronology_or_relation": {
+        "kind": "unspecified_relative_time",
+        "value": null,
+        "precision": "source states a shared event occurred; no exact relation to user entry is projected"
+      },
+      "relationship_thread_refs": [],
+      "epistemic_visibility": "NOT_SPECIFIED_IN_SOURCE; do not infer memory details or disclosure permissions.",
+      "source_status": "建议本轮先批准; CANON CANDIDATE",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "exposure_constraints": [],
+      "source_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河前史与人物历史骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "880bfa5f19ab5845c3c146661df03e4a1740ecf6",
+        "locator": "§97 H10",
+        "sha256": "b65885f15c9b86eb77ba2fbf1985755a2d6b2e2009577600bd5de68ac243a1ca"
+      },
+      "related_projection_record_ids": [],
+      "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
+      "projection_lifecycle": "ACTIVE_RESOURCE"
+    },
+    {
+      "projection_record_id": "PREHIST-PROJ-H11",
+      "record_kind": "relationship_statement",
+      "source_heading_id": "H11",
+      "statement": "共同事件之后，四人没有成为永远固定行动的小队，而进入各自发展期。",
+      "character_ids": [
+        "TOKI",
+        "KONTI",
+        "PROTI",
+        "AJI"
+      ],
+      "character_id_mapping_ref": {
+        "repository": "xrundaLab/GalaxyWorldCanon",
+        "path": "01_SOURCE_OF_TRUTH/银河角色生态与 Character Pack v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "1f9ae1a661b467b035da6fbb52c8427159bfda38"
+      },
+      "location_ids": [],
+      "chronology_or_relation": {
+        "kind": "ordered_relative",
+        "value": "after PREHIST-PROJ-H10",
+        "precision": "no date or duration"
+      },
+      "relationship_thread_refs": [],
+      "epistemic_visibility": "NOT_SPECIFIED_IN_SOURCE; do not infer who knows or may disclose this.",
+      "source_status": "建议本轮先批准; CANON CANDIDATE",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "exposure_constraints": [],
+      "source_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河前史与人物历史骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "880bfa5f19ab5845c3c146661df03e4a1740ecf6",
+        "locator": "§97 H11",
+        "sha256": "b65885f15c9b86eb77ba2fbf1985755a2d6b2e2009577600bd5de68ac243a1ca"
+      },
+      "related_projection_record_ids": [
+        "PREHIST-PROJ-H10"
+      ],
+      "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
+      "projection_lifecycle": "ACTIVE_RESOURCE"
+    },
+    {
+      "projection_record_id": "PREHIST-PROJ-H12",
+      "record_kind": "continuity_statement",
+      "source_heading_id": "H12",
+      "statement": "用户到来时四人彼此熟悉，但仍拥有独立生活和目标。",
+      "character_ids": [
+        "TOKI",
+        "KONTI",
+        "PROTI",
+        "AJI"
+      ],
+      "character_id_mapping_ref": {
+        "repository": "xrundaLab/GalaxyWorldCanon",
+        "path": "01_SOURCE_OF_TRUTH/银河角色生态与 Character Pack v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "1f9ae1a661b467b035da6fbb52c8427159bfda38"
+      },
+      "location_ids": [],
+      "chronology_or_relation": {
+        "kind": "timepoint",
+        "value": "at user arrival",
+        "precision": "no dates"
+      },
+      "relationship_thread_refs": [],
+      "epistemic_visibility": "NOT_SPECIFIED_IN_SOURCE; do not infer private histories or disclosure permissions.",
+      "source_status": "建议本轮先批准; CANON CANDIDATE",
+      "authority_status": "ACTIVE_AUTHORITY",
+      "maturity_status": "CANDIDATE",
+      "exposure_constraints": [],
+      "source_ref": {
+        "path": "01_SOURCE_OF_TRUTH/银河前史与人物历史骨架 v0.1.md",
+        "commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+        "git_blob": "880bfa5f19ab5845c3c146661df03e4a1740ecf6",
+        "locator": "§97 H12",
+        "sha256": "b65885f15c9b86eb77ba2fbf1985755a2d6b2e2009577600bd5de68ac243a1ca"
+      },
+      "related_projection_record_ids": [],
+      "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
+      "projection_lifecycle": "ACTIVE_RESOURCE"
+    }
+  ],
+  "default_exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
+  "exposure_policy_meaning": "After separate projection activation, facts may constrain authoring continuity; no character or user-facing disclosure is authorized by the index. Direct exposition/dialogue needs contextual epistemic review.",
+  "release_candidate_scope": {
+    "decision_authority": "Issue #18 Owner Phase B1 Content Decisions — approved",
+    "owner_decision_record": "https://github.com/xrundaLab/galaxy-story-reference-kernel/issues/18",
+    "source_canon_commit": "7966a848b2ad61043aa17b3330228cd189bfe2f5",
+    "activation_state": "ACTIVE_WHEN_THIS_RELEASE_IS_ON_MAIN",
+    "source_canon_prose_changed": false,
+    "new_canon_facts_created": false,
+    "exposure_policy": "AUTHORING_BACKGROUND_ONLY_UNTIL_EXPOSURE_REVIEW",
+    "semantic_policy": "H01-H12 constrain continuity/background only; no added dates, motives, private memories, locations, participant lists, or direct disclosure permissions."
+  }
+}

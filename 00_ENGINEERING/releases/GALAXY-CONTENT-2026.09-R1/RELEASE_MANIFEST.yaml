@@ -1,0 +1,46 @@
+galaxy_release:
+  release_id: GALAXY-CONTENT-2026.09-R1
+  world_canon_version: v1.0
+  character_canon_version: v0.1
+  prehistory_version: v0.1
+  map_canon_version: v0.1
+  reference_library_version: v0.1
+  story_schema_version: v0.3
+  production_spec_version: v0.2
+  runtime_config_version: null
+  course_source_version: null
+  status: RELEASED
+  baseline_commit: 7966a848b2ad61043aa17b3330228cd189bfe2f5
+  publication_provenance: GIT_HISTORY_NON_SELF_REFERENTIAL
+  active_resources:
+    readme_routing:
+      path: README.md
+      blob: 6edac11daef6b8dd468dbf84796e76bcb2150ebe
+      sha256: 45394abbf21601208aede247324a8d4b412d66dbe5d3dbeb3babb85d4112fde9
+    map_projection:
+      path: 00_ENGINEERING/resources/GALAXY_MAP_INDEX_V0.1.json
+      blob: 78e27ee6ea32aa9e3af676e6789dde1aca1b427f
+      sha256: ab22056002138a3a3f167c9b678e8e14d017e02857735db4eafba2138eaee1de
+      lifecycle: ACTIVE
+    prehistory_projection:
+      path: 00_ENGINEERING/resources/GALAXY_PREHISTORY_INDEX_V0.1.json
+      blob: 1563d735173e61fa87cfb724a72ee9dd31058b8d
+      sha256: 160fc5322de9678de708770ddb6c81723ca5963e9e6ca181b00ed67d04e3d935
+      lifecycle: ACTIVE
+    resource_catalog:
+      path: 00_ENGINEERING/resources/GALAXY_RESOURCE_CATALOG.json
+      blob: ee46788bb9cf8d9ee6226565dd98aab88d33f974
+      sha256: 75d4065019f2e4f96c1508c3afe626682d55afa42b1022cab6f8bb419b3841ea
+      lifecycle: ACTIVE
+  inactive_resources:
+    curriculum_projection: CANDIDATE_NOT_APPROVED
+    approved_reference_asset_registry: NOT_INCLUDED_IN_THIS_RELEASE
+  changeset_ids:
+    - GWC-RESOURCE-ROUTING-MAP-PREHISTORY-2026-09-R1
+  migrations: []
+  golden_tests: []
+  approved_by:
+    canon_owner: OWNER_APPROVED_IN_GALAXY_STORY_REFERENCE_KERNEL_ISSUE_18
+    engineering_owner: OWNER_AUTHORIZED_CHATGPT_TECHNICAL_REVIEW_PR_2
+  created_at: 2026-09-26
+  released_at: 2026-09-26

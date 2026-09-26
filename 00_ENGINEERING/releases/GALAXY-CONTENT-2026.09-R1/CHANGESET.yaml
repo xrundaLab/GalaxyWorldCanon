@@ -1,0 +1,54 @@
+changeset:
+  change_id: GWC-RESOURCE-ROUTING-MAP-PREHISTORY-2026-09-R1
+  release_id: GALAXY-CONTENT-2026.09-R1
+  status: APPROVED_FOR_RELEASE
+  change_class: CONTENT_UPDATE
+  summary: Activate reviewed Map and Prehistory structured projections plus shared Resource Catalog routing.
+  changed_sources:
+    - repository: xrundaLab/GalaxyWorldCanon
+      path: README.md
+      git_blob: 6edac11daef6b8dd468dbf84796e76bcb2150ebe
+      sha256: 45394abbf21601208aede247324a8d4b412d66dbe5d3dbeb3babb85d4112fde9
+    - repository: xrundaLab/GalaxyWorldCanon
+      path: 00_ENGINEERING/resources/GALAXY_MAP_INDEX_V0.1.json
+      git_blob: 78e27ee6ea32aa9e3af676e6789dde1aca1b427f
+      sha256: ab22056002138a3a3f167c9b678e8e14d017e02857735db4eafba2138eaee1de
+    - repository: xrundaLab/GalaxyWorldCanon
+      path: 00_ENGINEERING/resources/GALAXY_PREHISTORY_INDEX_V0.1.json
+      git_blob: 1563d735173e61fa87cfb724a72ee9dd31058b8d
+      sha256: 160fc5322de9678de708770ddb6c81723ca5963e9e6ca181b00ed67d04e3d935
+    - repository: xrundaLab/GalaxyWorldCanon
+      path: 00_ENGINEERING/resources/GALAXY_RESOURCE_CATALOG.json
+      git_blob: ee46788bb9cf8d9ee6226565dd98aab88d33f974
+      sha256: 75d4065019f2e4f96c1508c3afe626682d55afa42b1022cab6f8bb419b3841ea
+  added:
+    - Active Map discovery/selection projection for L01-L08 with Owner-approved eligibility boundaries
+    - Active Prehistory H01-L12 authoring-background projection
+    - Active shared Resource Catalog routing for Map and Prehistory
+    - README routing entry for the shared Resource Catalog
+  changed: []
+  deprecated: []
+  removed: []
+  impact:
+    content: LOW
+    schema: NONE
+    engineering: LOW
+    state: NONE
+    episodes: LOW
+    qa: LOW
+  migration:
+    required: false
+    migration_type: NONE
+  regeneration:
+    required: false
+    scope: []
+  affected_episode_ids: []
+  required_issues:
+    - xrundaLab/galaxy-story-reference-kernel#18
+    - xrundaLab/GalaxyWorldCanon#1
+  approval_required:
+    canon_owner: true
+    engineering_owner: true
+  approval_record:
+    canon_owner: OWNER_APPROVED_IN_GALAXY_STORY_REFERENCE_KERNEL_ISSUE_18
+    engineering_review: CHATGPT_TECHNICAL_REVIEW_PASS_GALAXYWORLDCANON_PR_2_2026-09-26
