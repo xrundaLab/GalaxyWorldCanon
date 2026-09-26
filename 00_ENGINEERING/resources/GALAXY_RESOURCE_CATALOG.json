@@ -41,7 +41,7 @@
     ]
   },
   "revision_policy": "Catalog edits produce a new source-repository commit and file hash. Publication commit is external Git provenance, not embedded in the bytes it identifies. A new Story run pins the exact approved Catalog revision; no moving-main adoption.",
-  "content_boundary": "Router/index metadata only. Map and Prehistory structured projections are active resource routes in GALAXY-CONTENT-2026.09-R1; Curriculum and Reference Registry remain inactive. The Catalog does not duplicate Canon prose or factual payload.",
+  "content_boundary": "Router/index metadata only. Map and Prehistory structured projections and the Owner-approved Reference Asset Registry are active resource routes. Curriculum remains inactive. The Catalog does not duplicate Canon prose or factual payload.",
   "resources": [
     {
       "resource_id": "GWC-README-ROUTING",
@@ -820,29 +820,31 @@
     },
     {
       "resource_id": "APPROVED-REFERENCE-ASSET-REGISTRY",
-      "resource_type": "REFERENCE_ASSET_REGISTRY_ENVELOPE",
-      "source_repo": "xrundaLab/galaxy-story-reference-kernel",
-      "source_path": "reports/resource-architecture-phase-b1/APPROVED_REFERENCE_ASSET_REGISTRY_CANDIDATE.json",
-      "source_revision": null,
-      "git_blob": null,
-      "sha256": "ba4a6f7b5cf033acdfdf54251e1727c028789c69c1d7d540483b6155054974ee",
-      "authority_status": "NOT_ACTIVE",
+      "resource_type": "APPROVED_REFERENCE_ASSET_REGISTRY",
+      "source_repo": "xrundaLab/GalaxyWorldCanon",
+      "source_path": "00_ENGINEERING/resources/GALAXY_APPROVED_REFERENCE_ASSET_REGISTRY_V0.1.json",
+      "source_revision": "SAME_AS_PINNED_CATALOG_REVISION",
+      "git_blob": "ada8b2cfcaab1d7982fb1d50c40baf432916ee5b",
+      "sha256": "24cf6e9e8b443c68df54bdb62d155944a072ebf579e722d1b048441504807a58",
+      "authority_status": "ACTIVE_AUTHORITY",
       "maturity_status": "CANDIDATE",
-      "lifecycle_class": "CANDIDATE_NOT_APPROVED",
-      "allowed_consumers": [],
-      "retrieval_mode": "NOT_RESOLVABLE_PENDING_OWNER_REVIEW",
-      "scope": "Candidate structured resource only; an approved revision needs its own exact repository, commit, path, blob, and SHA-256 before any new run can resolve it.",
+      "lifecycle_class": "ACTIVE_ALWAYS",
+      "allowed_consumers": [
+        "PLAN_C_STORY_KERNEL"
+      ],
+      "retrieval_mode": "APPROVED_ASSET_FILTER_THEN_BOUNDED_RETRIEVAL_0_3",
+      "scope": "Active approved real-world Reference Asset shelf for required Deep Note opportunity scan. Only approved records may be returned; zero candidates is valid.",
       "lifecycle": {
-        "effective_from": null,
+        "effective_from": "GALAXY-CONTENT-2026.09-R2",
         "deprecated_by": null,
-        "approval_evidence": null
+        "approval_evidence": "Owner first-tranche approval recorded in galaxy-story-reference-kernel Issue #17; GalaxyWorldCanon Issue #3 publishes the shared Registry."
       },
       "projection_ref": null,
       "projection_of": null,
       "governed_by": "GWC-CONTROLLED-REFERENCE-LIBRARY-GOVERNANCE",
-      "candidate_pin_complete": false,
-      "notes": "Candidate file SHA-256 records local bytes; publication commit is external Git provenance and activation needs a separately approved source pin."
+      "candidate_pin_complete": true,
+      "notes": "Nine Owner-approved assets active; RAC-005 is excluded/held. Registry availability is distinct from story inclusion: scan required, inclusion optional, no quota."
     }
   ],
-  "activation_release_id": "GALAXY-CONTENT-2026.09-R1"
+  "latest_routing_release_id": "GALAXY-CONTENT-2026.09-R2"
 }
